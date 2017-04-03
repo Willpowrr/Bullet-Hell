@@ -9,6 +9,10 @@ namespace BulletHell {
 
         public BH_MovementController movementController { get; protected set; }
 
+        public void Awake() {
+            movementController = GetComponent<BH_MovementController>();
+        }
+
         // Use this for initialization
         void Start() {
 
