@@ -47,8 +47,8 @@ Temporary Items
 .apdisk
 
 # Unity Meta files
-.meta
-Final/Temp/
-Final/Library/
-Final/Final.sln
+*.meta
+Temp/
+Library/
 *.sln
+Final/Library/UnityAssemblies/UnityEngine.UI.xml
