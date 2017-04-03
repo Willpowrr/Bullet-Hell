@@ -5,7 +5,8 @@ using UnityEngine;
 namespace BulletHell {
 
     public class BH_Player : MonoBehaviour {
-
+        
+        public BH_CameraController cameraController { get; protected set; }
         public BH_Ship ship { get; protected set; }
         public BH_BulletController bulletController { get; protected set; }
 
@@ -15,6 +16,7 @@ namespace BulletHell {
 
         public void Awake() {
 
+            cameraController = FindObjectOfType<BH_CameraController>();
             ship = GetComponentInChildren<BH_Ship>();
             bulletController = GetComponentInChildren<BH_BulletController>();
 
