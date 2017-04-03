@@ -50,7 +50,7 @@ Temporary Items
 *.meta
 Final/Temp/
 Final/Library/
-*.sln
+*.slns
 *.dwlt
 *.csproj
 *.suo
