@@ -81,8 +81,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BezierCurves\Scripts\BezierCurve.cs" />
-    <Compile Include="Assets\BezierCurves\Scripts\BezierPoint.cs" />
     <Compile Include="Assets\Scripts\Bullet\BH_Bullet.cs" />
     <Compile Include="Assets\Scripts\Camera\BH_CameraController.cs" />
     <Compile Include="Assets\Scripts\Camera\FollowCam.cs" />
@@ -90,11 +88,7 @@
     <Compile Include="Assets\Scripts\Destructible\Destructible.cs" />
     <Compile Include="Assets\Scripts\Destructible\DestructibleAnimated.cs" />
     <Compile Include="Assets\Scripts\Destructible\Destructor.cs" />
-    <Compile Include="Assets\Scripts\Enemies\BH_Enemy.cs" />
-    <Compile Include="Assets\Scripts\Enemies\BH_EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Enemies\Dumbass\BH_DumbassEnemy.cs" />
     <Compile Include="Assets\Scripts\Game\Game.cs" />
-    <Compile Include="Assets\Scripts\Gameplay\BH_GameplayController.cs" />
     <Compile Include="Assets\Scripts\Locomotion\GroundDetector.cs" />
     <Compile Include="Assets\Scripts\Locomotion\JumpController.cs" />
     <Compile Include="Assets\Scripts\Locomotion\Jumper.cs" />
@@ -111,7 +105,6 @@
     <Compile Include="Assets\Scripts\Utility\SpriteVelocityFlipper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\BezierCurves\readme.txt" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />

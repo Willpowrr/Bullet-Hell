@@ -19,6 +19,9 @@ namespace BulletHell {
             cameraController = FindObjectOfType<BH_CameraController>();
             ship = GetComponentInChildren<BH_Ship>();
             bulletController = GetComponentInChildren<BH_BulletController>();
+
+            Application.targetFrameRate = 60;
+            QualitySettings.vSyncCount = 0;
         }
 
         // Use this for initialization//
