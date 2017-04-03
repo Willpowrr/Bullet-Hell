@@ -16,7 +16,7 @@ namespace BulletHell {
         public BH_MovementController movementController { get; protected set; }
 
         public bool active { get; set; }
-        public bool livedItsLife { get { return (Time.fixedTime - birthTime) > lifeTime; } }
+        public bool livedItsLife { get { return (Time.time - birthTime) > lifeTime; } }
 
         protected float birthTime = 0.0f;
 
@@ -32,7 +32,7 @@ namespace BulletHell {
         }
 
         public void Spawn() {
-            birthTime = Time.fixedTime;
+            birthTime = Time.time;
             active = true;
         }
     }

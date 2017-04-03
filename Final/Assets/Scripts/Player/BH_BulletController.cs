@@ -80,7 +80,7 @@ namespace BulletHell {
 
         public void Shoot() {
 
-            float currentTime = Time.fixedTime;
+            float currentTime = Time.time;
             if (currentTime - lastShotTime > shootFrequency) {
                 BH_Bullet bullet = GetBullet();
                 bullet.movementController.position = player.ship.movementController.position;
