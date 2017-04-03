@@ -48,7 +48,7 @@ Temporary Items
 
 # Unity Meta files
 .meta
-Final/Temp
-Final/Library
+Final/Temp/
+Final/Library/
 Final/Final.sln
 *.sln
