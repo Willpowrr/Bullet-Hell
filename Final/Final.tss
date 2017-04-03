@@ -2,18 +2,24 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Camera\GameGUI.cs</string>
+      <string>c:\users\will\documents\projects\final\final\assets\scripts\camera\gamegui.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Camera\BH_CameraController.cs</string>
+      <string>c:\users\will\documents\projects\final\final\assets\scripts\camera\bh_cameracontroller.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_Player.cs</string>
+      <string>c:\users\will\documents\projects\final\final\assets\scripts\player\bh_player.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Gameplay\BH_GameplayController.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_BulletController.cs</string>
+      <string>c:\users\will\documents\projects\final\final\assets\scripts\player\bh_bulletcontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Enemies\Dumbass\BH_DumbassEnemy.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
