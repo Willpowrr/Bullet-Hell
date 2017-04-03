@@ -48,7 +48,8 @@ Temporary Items
 
 # Unity Meta files
 *.meta
-Temp/
-Library/
+Final/Temp/
+Final/Library/
 *.sln
 Final/Library/UnityAssemblies/UnityEngine.UI.xml
+Final/Library/CurrentLayout.dwlt
