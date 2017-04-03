@@ -1,0 +1,37 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace BulletHell {
+
+    public class BH_Player : MonoBehaviour {
+
+        public BH_Ship ship { get; protected set; }
+        public BH_BulletController bulletController { get; protected set; }
+
+        public Vector3 startPosition;
+        public Vector3 minPosition;
+        public Vector3 maxPosition;
+
+        public void Awake() {
+
+            ship = GetComponentInChildren<BH_Ship>();
+            bulletController = GetComponentInChildren<BH_BulletController>();
+
+            Application.targetFrameRate = 60;
+            QualitySettings.vSyncCount = 0;
+        }
+
+        // Use this for initialization//
+        void Start() {
+
+            ship.movementController.position = startPosition;
+        }
+
+        // Update is called once per frame
+        void Update() {
+            ship.movementController.position.x = Mathf.Clamp(ship.movementController.position.x, minPosition.x, maxPosition.x);
+            ship.movementController.position.y = Mathf.Clamp(ship.movementController.position.y, minPosition.y, maxPosition.y);
+        }
+    }
+}
