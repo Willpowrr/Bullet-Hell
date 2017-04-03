@@ -35,7 +35,7 @@ namespace BulletHell {
             ship.movementController.position.x = Mathf.Clamp(ship.movementController.position.x, minPosition.x, maxPosition.x);
             ship.movementController.position.y = Mathf.Clamp(ship.movementController.position.y, minPosition.y, maxPosition.y);
 
-            if (Input.GetKeyDown(KeyCode.Space)) {
+            if (Input.GetKey(KeyCode.Space)) {
                 bulletController.Shoot();
             }
         }

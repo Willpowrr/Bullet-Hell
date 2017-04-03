@@ -12,6 +12,9 @@ namespace BulletHell {
 		public BH_Bullet bulletPrefab;
 		public Vector3 inactivePosition;
         public float bulletVelocity = 1.0f;
+        public float shootFrequency = 0.1f;
+
+        protected float lastShotTime = 0.0f;
 
 		public Queue<BH_Bullet> bulletCache {get; protected set;}
         public List<BH_Bullet> activeBullets { get; protected set; }
@@ -57,6 +60,11 @@ namespace BulletHell {
 		// Update is called once per frame
 		void Update() {
 
+            CheckActiveBulletsOffScreen();
+		}
+
+        protected void CheckActiveBulletsOffScreen() {
+
             removeList.Clear();
             foreach (BH_Bullet bullet in activeBullets) {
                 Vector3 screenPos = cameraController.mainCamera.WorldToViewportPoint(bullet.movementController.position);
@@ -68,12 +76,17 @@ namespace BulletHell {
             foreach (BH_Bullet bullet in removeList) {
                 ReturnBullet(bullet);
             }
-		}
+        }
 
         public void Shoot() {
-            BH_Bullet bullet = GetBullet();
-            bullet.movementController.position = player.ship.movementController.position;
-            bullet.movementController.velocity = new Vector3(bulletVelocity, 0.0f, 0.0f);
+
+            float currentTime = Time.fixedTime;
+            if (currentTime - lastShotTime > shootFrequency) {
+                BH_Bullet bullet = GetBullet();
+                bullet.movementController.position = player.ship.movementController.position;
+                bullet.movementController.velocity = new Vector3(bulletVelocity, 0.0f, 0.0f);
+                lastShotTime = currentTime;
+            }
         }
 	}
 }
