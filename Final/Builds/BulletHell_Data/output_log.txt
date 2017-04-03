@@ -19,14 +19,14 @@ Platform assembly: C:\Users\Will\Documents\Projects\Final\Final\Builds\BulletHel
 Loading C:\Users\Will\Documents\Projects\Final\Final\Builds\BulletHell_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Will\Documents\Projects\Final\Final\Builds\BulletHell_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Will\Documents\Projects\Final\Final\Builds\BulletHell_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.024 seconds
+- Completed reload, in  0.037 seconds
 Platform assembly: C:\Users\Will\Documents\Projects\Final\Final\Builds\BulletHell_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Will\Documents\Projects\Final\Final\Builds\BulletHell_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1438 at 0,-358
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 17.631723 ms
+UnloadTime: 1.598568 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2484 -> priority: 1 
-  Thread -> id: 1cbc -> priority: 1 
+  Thread -> id: 79b0 -> priority: 1 
+  Thread -> id: 3168 -> priority: 1 
