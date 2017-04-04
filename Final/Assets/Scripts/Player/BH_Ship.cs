@@ -83,7 +83,7 @@ namespace BulletHell {
                 _verticalMovementState = value;
                 switch (_verticalMovementState) {
                     case VerticalMovementState.Idle:
-                        shipAnimator.CrossFade("Idle", 0.1f);
+                        shipAnimator.CrossFade("Idle", 0.25f);
                         break;
 
                     case VerticalMovementState.Up:
