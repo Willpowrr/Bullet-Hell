@@ -12,9 +12,18 @@ namespace BulletHell {
             Backward
         }
 
+        public enum VerticalMovementState : int {
+            Idle = 0,
+            Up,
+            Down
+        }
+
         public BH_Player player { get; protected set; }
         public BH_MovementController movementController { get; protected set; }
         public BH_InputController inputController { get; protected set; }
+
+        [SerializeField]
+        protected Animator shipAnimator;
 
         [SerializeField]
         protected List<ParticleSystem> idleParticles = new List<ParticleSystem>();
@@ -64,6 +73,31 @@ namespace BulletHell {
             }
         }
 
+        protected VerticalMovementState _verticalMovementState = VerticalMovementState.Idle;
+        public VerticalMovementState verticalMovementState {
+            get { return _verticalMovementState; }
+            set {
+                if (_verticalMovementState == value) {
+                    return;
+                }
+                _verticalMovementState = value;
+                switch (_verticalMovementState) {
+                    case VerticalMovementState.Idle:
+                        shipAnimator.CrossFade("Idle", 0.1f);
+                        break;
+
+                    case VerticalMovementState.Up:
+                        shipAnimator.CrossFade("Up", 0.1f);
+                        break;
+
+                    case VerticalMovementState.Down:
+                        shipAnimator.CrossFade("Down", 0.1f);
+                        break;
+                }
+
+            }
+        }
+
         public void Awake() {
 
             player = GetComponentInParent<BH_Player>();
@@ -99,9 +133,14 @@ namespace BulletHell {
 
             if (inputController.up) {
                 newVelocity.y += moveSpeed;
+                verticalMovementState = VerticalMovementState.Up;
             }
             else if (inputController.down) {
                 newVelocity.y -= moveSpeed;
+                verticalMovementState = VerticalMovementState.Down;
+            }
+            else {
+                verticalMovementState = VerticalMovementState.Idle;
             }
 
             movementController.SetVelocity(newVelocity);
