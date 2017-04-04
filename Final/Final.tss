@@ -2,10 +2,10 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Enemies\Dumbass\BH_DumbassEnemy.cs</string>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_MovementController.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_BulletController.cs</string>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Bullet\BH_Bullet.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
