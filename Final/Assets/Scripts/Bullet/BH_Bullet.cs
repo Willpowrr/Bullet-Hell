@@ -8,6 +8,7 @@ namespace BulletHell {
     public class BH_Bullet : MonoBehaviour {
 
         public BH_MovementController movementController { get; protected set; }
+        public BH_BulletController bulletController { get; set; }
 
         public void Awake() {
             movementController = GetComponent<BH_MovementController>();
