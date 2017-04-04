@@ -34,13 +34,17 @@ namespace BulletHell {
 			for (int i = 0; i <bulletCacheSize; ++i) {
 				BH_Bullet bullet = Instantiate(bulletPrefab);
 				bullet.transform.SetParent(transform);
+                bullet.transform.position = inactivePosition;
+                bullet.movementController.enabled = false;
                 bullet.movementController.position = inactivePosition;
+                bullet.bulletController = this;
 				bulletCache.Enqueue(bullet);
 			}
 		}
 
         protected BH_Bullet GetBullet() {
             BH_Bullet bullet = bulletCache.Dequeue();
+            bullet.movementController.enabled = true;
             activeBullets.Add(bullet);
             return bullet;
         }
@@ -48,6 +52,8 @@ namespace BulletHell {
         protected void ReturnBullet(BH_Bullet p_bullet) {
             activeBullets.Remove(p_bullet);
             bulletCache.Enqueue(p_bullet);
+            p_bullet.movementController.enabled = false;
+            p_bullet.transform.position = inactivePosition;
             p_bullet.movementController.position = inactivePosition;
             p_bullet.movementController.velocity = Vector3.zero;
         }
@@ -68,7 +74,7 @@ namespace BulletHell {
             removeList.Clear();
             foreach (BH_Bullet bullet in activeBullets) {
                 Vector3 screenPos = cameraController.mainCamera.WorldToViewportPoint(bullet.movementController.position);
-                if (screenPos.x < 0.0f || screenPos.x > 1.0f || screenPos.y < 0.0f || screenPos.y > 1.0f) {
+                if (screenPos.x < -0.1f || screenPos.x > 1.1f || screenPos.y < -0.1f || screenPos.y > 1.1f) {
                     removeList.Add(bullet);
                 }
             }
@@ -83,6 +89,7 @@ namespace BulletHell {
             float currentTime = Time.time;
             if (currentTime - lastShotTime > shootFrequency) {
                 BH_Bullet bullet = GetBullet();
+                bullet.transform.position = player.ship.movementController.position;
                 bullet.movementController.position = player.ship.movementController.position;
                 bullet.movementController.velocity = new Vector3(bulletVelocity, 0.0f, 0.0f);
                 lastShotTime = currentTime;
