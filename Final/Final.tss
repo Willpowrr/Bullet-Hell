@@ -32,10 +32,13 @@
       <string>c:\users\will\documents\projects\final\final\assets\standard assets\2d\scripts\platformercharacter2d.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\UI\BH_PlayerHealthUI.cs</string>
+      <string>c:\users\will\documents\projects\final\final\assets\scripts\ui\bh_playerhealthui.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\UI\BH_PlayerHealthIcon.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Music\BH_MusicController.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
