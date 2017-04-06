@@ -167,5 +167,13 @@ namespace BulletHell {
         public void SetBackwardParticlesEnabled(bool p_enabled) {
             SetParticleSystemsEnabled(backwardParticles, p_enabled);
         }
+
+        private void OnTriggerEnter(Collider other) {
+
+            BH_Enemy enemy = other.gameObject.GetComponent<BH_Enemy>();
+            if (enemy != null) {
+                player.Damage(1);
+            }
+        }
     }
 }

@@ -20,7 +20,7 @@
       <string>c:\users\will\documents\projects\final\final\assets\scripts\enemies\bh_enemy.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Enemies\BH_EnemyController.cs</string>
+      <string>c:\users\will\documents\projects\final\final\assets\scripts\enemies\bh_enemycontroller.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\will\documents\projects\final\final\assets\scripts\gameplay\bh_gameplaycontroller.cs</string>
@@ -33,6 +33,9 @@
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\UI\BH_PlayerHealthUI.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\UI\BH_PlayerHealthIcon.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
