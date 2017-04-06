@@ -112,37 +112,6 @@ namespace BulletHell {
             SetIdleParticlesEnabled(true);
         }
 
-        // Update is called once per frame
-        void Update() {
-
-            Vector3 newVelocity = Vector3.zero;
-            if (inputController.right) {
-                newVelocity.x += moveSpeed;
-                horizontalMovementState = HorizontalMovementState.Forward;
-            }
-            else if (inputController.left) {
-                newVelocity.x -= moveSpeed;
-                horizontalMovementState = HorizontalMovementState.Backward;
-            }
-            else {
-                horizontalMovementState = HorizontalMovementState.Idle;
-            }
-
-            if (inputController.up) {
-                newVelocity.y += moveSpeed;
-                verticalMovementState = VerticalMovementState.Up;
-            }
-            else if (inputController.down) {
-                newVelocity.y -= moveSpeed;
-                verticalMovementState = VerticalMovementState.Down;
-            }
-            else {
-                verticalMovementState = VerticalMovementState.Idle;
-            }
-
-            rigidBody.velocity = newVelocity;
-        }
-
         protected void SetParticleSystemsEnabled(List<ParticleSystem> p_list, bool p_enabled) {
             foreach (ParticleSystem particleSystem in p_list) {
                 ParticleSystem.EmissionModule emissionModule = particleSystem.emission;

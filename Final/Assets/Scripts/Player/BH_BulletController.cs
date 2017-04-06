@@ -13,32 +13,53 @@ namespace BulletHell {
 		public Vector3 inactivePosition;
         public float bulletVelocity = 1.0f;
         public float shootFrequency = 0.1f;
+        public Transform bulletsTransform;
+
+        public int explosionParticleCacheSize = 10;
+        public ParticleSystem explosionParticlePrefab;
+        public Transform explosionParticlesTransform;
 
         protected float lastShotTime = 0.0f;
 
 		public Queue<BH_Bullet> bulletCache {get; protected set;}
         public List<BH_Bullet> activeBullets { get; protected set; }
+        protected List<BH_Bullet> bulletRemoveList { get; set; }
 
-        protected List<BH_Bullet> removeList { get; set; }
+        public Queue<ParticleSystem> explosionParticlesCache { get; protected set; }
+        public List<ParticleSystem> activeExplosionParticles { get; protected set; }
+        protected List<ParticleSystem> explosionParticleRemoveList { get; set; }
 
-		private void Awake () {
+        private void Awake () {
 			CreateBulletCache();
+            CreateExplosionParticlesCache();
             cameraController = FindObjectOfType<BH_CameraController>();
             player = GetComponentInParent<BH_Player>();
 		}
 
-		protected void CreateBulletCache(){
+		protected void CreateBulletCache() {
 			bulletCache = new Queue<BH_Bullet>();
             activeBullets = new List<BH_Bullet>();
-            removeList = new List<BH_Bullet>();
+            bulletRemoveList = new List<BH_Bullet>();
 			for (int i = 0; i <bulletCacheSize; ++i) {
-				BH_Bullet bullet = Instantiate(bulletPrefab);
-				bullet.transform.SetParent(transform);
+				BH_Bullet bullet = Instantiate(bulletPrefab, bulletsTransform);
                 bullet.transform.position = inactivePosition;
                 bullet.bulletController = this;
 				bulletCache.Enqueue(bullet);
 			}
 		}
+
+        protected void CreateExplosionParticlesCache() {
+            explosionParticlesCache = new Queue<ParticleSystem>();
+            activeExplosionParticles = new List<ParticleSystem>();
+            explosionParticleRemoveList = new List<ParticleSystem>();
+            for (int i = 0; i < explosionParticleCacheSize; ++i) {
+                ParticleSystem explosionParticleSystem = Instantiate(explosionParticlePrefab, explosionParticlesTransform);
+                explosionParticleSystem.transform.position = inactivePosition;
+                ParticleSystem.EmissionModule emission = explosionParticleSystem.emission;
+                emission.enabled = false;
+                explosionParticlesCache.Enqueue(explosionParticleSystem);
+            }
+        }
 
         protected BH_Bullet GetBullet() {
             BH_Bullet bullet = bulletCache.Dequeue();
@@ -54,8 +75,21 @@ namespace BulletHell {
             p_bullet.rigidBody.velocity = Vector3.zero;
         }
 
-		// Use this for initialization
-		void Start() {
+        protected ParticleSystem GetExplosionParticleSystem() {
+            ParticleSystem particleSystem = explosionParticlesCache.Dequeue();
+            activeExplosionParticles.Add(particleSystem);
+            return particleSystem;
+        }
+
+        public void ReturnExplosionParticleSystem(ParticleSystem p_particleSystem) {
+            activeExplosionParticles.Remove(p_particleSystem);
+            explosionParticlesCache.Enqueue(p_particleSystem);
+            p_particleSystem.transform.position = inactivePosition;
+            p_particleSystem.transform.position = inactivePosition;
+        }
+
+        // Use this for initialization
+        void Start() {
 
 		}
 
@@ -63,20 +97,35 @@ namespace BulletHell {
 		void Update() {
 
             CheckActiveBulletsOffScreen();
+            CheckExplosionParticlesFinished();
 		}
 
         protected void CheckActiveBulletsOffScreen() {
 
-            removeList.Clear();
+            bulletRemoveList.Clear();
             foreach (BH_Bullet bullet in activeBullets) {
                 Vector3 screenPos = cameraController.mainCamera.WorldToViewportPoint(bullet.transform.position);
                 if (screenPos.x < -0.1f || screenPos.x > 1.1f || screenPos.y < -0.1f || screenPos.y > 1.1f) {
-                    removeList.Add(bullet);
+                    bulletRemoveList.Add(bullet);
                 }
             }
 
-            foreach (BH_Bullet bullet in removeList) {
+            foreach (BH_Bullet bullet in bulletRemoveList) {
                 ReturnBullet(bullet);
+            }
+        }
+
+        protected void CheckExplosionParticlesFinished() {
+
+            explosionParticleRemoveList.Clear();
+            foreach (ParticleSystem particleSystem in activeExplosionParticles) {
+                if (particleSystem.isStopped) {
+                    explosionParticleRemoveList.Add(particleSystem);
+                }
+            }
+
+            foreach (ParticleSystem particleSystem in explosionParticleRemoveList) {
+                ReturnExplosionParticleSystem(particleSystem);
             }
         }
 
@@ -92,6 +141,13 @@ namespace BulletHell {
                 }
                 lastShotTime = currentTime;
             }
+        }
+
+        public void CreateExplosionParticles(Vector3 p_position) {
+            ParticleSystem particleSystem = GetExplosionParticleSystem();
+            particleSystem.transform.position = p_position;
+            ParticleSystem.EmissionModule emission = particleSystem.emission;
+            emission.enabled = true;
         }
 	}
 }

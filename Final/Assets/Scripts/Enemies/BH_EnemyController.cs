@@ -28,6 +28,8 @@ namespace BulletHell {
         protected float spawnMinYPosition = -4.0f;
         [SerializeField]
         protected float spawnXPosition = 10.0f;
+        [SerializeField]
+        protected float enemyMoveSpeed = 7.5f;
 
         protected float lastSpawnTime = 0.0f;
         protected Dictionary<string, List<BH_Enemy>> activeEnemies = new Dictionary<string, List<BH_Enemy>>();
@@ -100,7 +102,7 @@ namespace BulletHell {
             enemyInstance.Spawn();
             float yPosition = Random.Range(spawnMinYPosition, spawnMaxYPosition);
             enemyInstance.transform.position = new Vector3(spawnXPosition, yPosition, 0.0f);
-            enemyInstance.rigidBody.velocity = new Vector3(-5f, 0.0f, 0.0f);
+            enemyInstance.rigidBody.velocity = new Vector3(-enemyMoveSpeed, 0.0f, 0.0f);
             activeEnemies[enemyPrefab.enemyID].Add(enemyInstance);
         }
 

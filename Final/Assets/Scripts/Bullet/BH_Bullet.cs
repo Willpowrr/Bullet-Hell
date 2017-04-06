@@ -25,7 +25,12 @@ namespace BulletHell {
         }
 
         private void OnTriggerEnter(Collider other) {
+            Kill();
+        }
+
+        protected void Kill() {
             bulletController.ReturnBullet(this);
+            bulletController.CreateExplosionParticles(transform.position);
         }
     }
 }
