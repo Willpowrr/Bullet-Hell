@@ -2,10 +2,22 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_MovementController.cs</string>
+      <string>c:\users\will\documents\projects\final\final\assets\scripts\player\bh_movementcontroller.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Bullet\BH_Bullet.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_Ship.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_BulletController.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_InputController.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Will\Documents\Projects\Final\Final\Assets\Scripts\Player\BH_Player.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
