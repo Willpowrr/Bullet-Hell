@@ -106,6 +106,7 @@
     <Compile Include="Assets\Scripts\Player\BH_InputController.cs" />
     <Compile Include="Assets\Scripts\Player\BH_Player.cs" />
     <Compile Include="Assets\Scripts\Player\BH_Ship.cs" />
+    <Compile Include="Assets\Scripts\UI\BH_PlayerHealthUI.cs" />
     <Compile Include="Assets\Scripts\Utility\SinePositionChanger.cs" />
     <Compile Include="Assets\Scripts\Utility\SpriteTiledArea.cs" />
     <Compile Include="Assets\Scripts\Utility\SpriteVelocityFlipper.cs" />

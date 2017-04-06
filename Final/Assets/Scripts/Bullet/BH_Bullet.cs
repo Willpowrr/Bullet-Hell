@@ -24,7 +24,7 @@ namespace BulletHell {
 
         }
 
-        void OnCollisionEnter(Collision collision) {
+        private void OnTriggerEnter(Collider other) {
             bulletController.ReturnBullet(this);
         }
     }

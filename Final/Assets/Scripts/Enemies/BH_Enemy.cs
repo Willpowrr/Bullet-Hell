@@ -40,9 +40,18 @@ namespace BulletHell {
             enteredScreen = false;
         }
 
-        void OnCollisionEnter(Collision collision) {
-            currentHealth--;
-            if (currentHealth <= 0) {
+        private void OnTriggerEnter(Collider other) {
+
+            BH_Bullet bullet = other.gameObject.GetComponent<BH_Bullet>();
+            if (bullet != null) {
+                currentHealth--;
+                if (currentHealth <= 0) {
+                    enemyController.ReturnEnemy(this);
+                }
+            }
+
+            BH_Ship ship = other.gameObject.GetComponent<BH_Ship>();
+            if (ship != null) {
                 enemyController.ReturnEnemy(this);
             }
         }
