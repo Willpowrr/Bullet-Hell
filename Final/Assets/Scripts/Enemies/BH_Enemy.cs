@@ -9,6 +9,7 @@ namespace BulletHell {
 
         public Rigidbody rigidBody { get; protected set; }
         public BH_EnemyController enemyController { get; set; }
+        public AudioSource audioSource { get; protected set; }
 
         [SerializeField]
         protected BezierCurve movementCurve;
@@ -19,12 +20,18 @@ namespace BulletHell {
         [SerializeField]
         protected int startHealth = 1;
 
+        [SerializeField]
+        protected AudioClip deathSoundClip;
+        [SerializeField]
+        protected float deathSoundVolume;
+
         public bool active { get; set; }
         public int currentHealth { get; protected set; }
         public bool enteredScreen { get; set; }
 
         private void Awake() {
             rigidBody = GetComponent<Rigidbody>();
+            audioSource = GetComponent<AudioSource>();
             active = false;
         }
         
@@ -46,14 +53,19 @@ namespace BulletHell {
             if (bullet != null) {
                 currentHealth--;
                 if (currentHealth <= 0) {
-                    enemyController.ReturnEnemy(this);
+                    Kill();
                 }
             }
 
             BH_Ship ship = other.gameObject.GetComponent<BH_Ship>();
             if (ship != null) {
-                enemyController.ReturnEnemy(this);
+                Kill();
             }
+        }
+
+        protected void Kill() {
+            audioSource.PlayOneShot(deathSoundClip, deathSoundVolume);
+            enemyController.ReturnEnemy(this);
         }
     }
 }

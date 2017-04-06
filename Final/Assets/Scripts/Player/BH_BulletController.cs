@@ -87,6 +87,9 @@ namespace BulletHell {
                 BH_Bullet bullet = GetBullet();
                 bullet.transform.position = player.ship.transform.position;
                 bullet.rigidBody.velocity = new Vector3(bulletVelocity, 0.0f, 0.0f);
+                if (player != null) {
+                    player.PlayShootSound();
+                }
                 lastShotTime = currentTime;
             }
         }

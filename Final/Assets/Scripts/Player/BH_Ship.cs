@@ -20,7 +20,6 @@ namespace BulletHell {
 
         public Rigidbody rigidBody { get; protected set; }
         public BH_Player player { get; protected set; }
-        public BH_InputController inputController { get; protected set; }
 
         [SerializeField]
         protected Animator shipAnimator;
@@ -102,7 +101,6 @@ namespace BulletHell {
 
             rigidBody = GetComponent<Rigidbody>();
             player = GetComponentInParent<BH_Player>();
-            inputController = GetComponent<BH_InputController>();
         }
 
         // Use this for initialization
@@ -111,36 +109,8 @@ namespace BulletHell {
             DisableAllParticles();
             SetIdleParticlesEnabled(true);
         }
-
-        // Update is called once per frame
+        
         void Update() {
-
-            Vector3 newVelocity = Vector3.zero;
-            if (inputController.right) {
-                newVelocity.x += moveSpeed;
-                horizontalMovementState = HorizontalMovementState.Forward;
-            }
-            else if (inputController.left) {
-                newVelocity.x -= moveSpeed;
-                horizontalMovementState = HorizontalMovementState.Backward;
-            }
-            else {
-                horizontalMovementState = HorizontalMovementState.Idle;
-            }
-
-            if (inputController.up) {
-                newVelocity.y += moveSpeed;
-                verticalMovementState = VerticalMovementState.Up;
-            }
-            else if (inputController.down) {
-                newVelocity.y -= moveSpeed;
-                verticalMovementState = VerticalMovementState.Down;
-            }
-            else {
-                verticalMovementState = VerticalMovementState.Idle;
-            }
-
-            rigidBody.velocity = newVelocity;
         }
 
         protected void SetParticleSystemsEnabled(List<ParticleSystem> p_list, bool p_enabled) {
