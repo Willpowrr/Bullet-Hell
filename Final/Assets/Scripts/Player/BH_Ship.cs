@@ -18,8 +18,8 @@ namespace BulletHell {
             Down
         }
 
+        public Rigidbody rigidBody { get; protected set; }
         public BH_Player player { get; protected set; }
-        public BH_MovementController movementController { get; protected set; }
         public BH_InputController inputController { get; protected set; }
 
         [SerializeField]
@@ -100,12 +100,9 @@ namespace BulletHell {
 
         public void Awake() {
 
+            rigidBody = GetComponent<Rigidbody>();
             player = GetComponentInParent<BH_Player>();
-            movementController = GetComponent<BH_MovementController>();
             inputController = GetComponent<BH_InputController>();
-
-            Application.targetFrameRate = 60;
-            QualitySettings.vSyncCount = 0;
         }
 
         // Use this for initialization
@@ -143,7 +140,7 @@ namespace BulletHell {
                 verticalMovementState = VerticalMovementState.Idle;
             }
 
-            movementController.SetVelocity(newVelocity);
+            rigidBody.velocity = newVelocity;
         }
 
         protected void SetParticleSystemsEnabled(List<ParticleSystem> p_list, bool p_enabled) {

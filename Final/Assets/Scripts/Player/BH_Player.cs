@@ -24,13 +24,16 @@ namespace BulletHell {
         // Use this for initialization//
         void Start() {
 
-            ship.movementController.position = startPosition;
+            ship.transform.position = startPosition;
         }
 
         // Update is called once per frame
         void Update() {
-            ship.movementController.position.x = Mathf.Clamp(ship.movementController.position.x, minPosition.x, maxPosition.x);
-            ship.movementController.position.y = Mathf.Clamp(ship.movementController.position.y, minPosition.y, maxPosition.y);
+            Vector3 position = ship.transform.position;
+            position.x = Mathf.Clamp(ship.transform.position.x, minPosition.x, maxPosition.x);
+            position.y = Mathf.Clamp(ship.transform.position.y, minPosition.y, maxPosition.y);
+            position.z = 0.0f;
+            ship.transform.position = position;
 
             if (Input.GetKey(KeyCode.Space)) {
                 bulletController.Shoot();

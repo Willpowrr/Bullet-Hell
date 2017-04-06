@@ -15,8 +15,8 @@ namespace BulletHell {
             cameraController = GetComponentInChildren<BH_CameraController>();
             enemyController = GetComponentInChildren<BH_EnemyController>();
 
-            Application.targetFrameRate = 60;
-            QualitySettings.vSyncCount = 0;
+            //Application.targetFrameRate = 60;
+            //QualitySettings.vSyncCount = 0;
         }
 
         // Use this for initialization
@@ -27,6 +27,11 @@ namespace BulletHell {
         // Update is called once per frame
         void Update() {
 
+        }
+
+        public bool IsOnScreen(Transform p_transform) {
+            Vector3 screenPos = cameraController.mainCamera.WorldToViewportPoint(p_transform.position);
+            return !(screenPos.x < -0.1f || screenPos.x > 1.1f || screenPos.y < -0.1f || screenPos.y > 1.1f);
         }
     }
 }

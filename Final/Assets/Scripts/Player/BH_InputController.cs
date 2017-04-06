@@ -4,8 +4,7 @@ using UnityEngine;
 
 namespace BulletHell {
     public class BH_InputController : MonoBehaviour {
-
-        protected BH_MovementController movementController;
+        
 
         public bool up { get; protected set; }
         public bool right { get; protected set; }
@@ -14,7 +13,6 @@ namespace BulletHell {
 		public bool fire1 { get; protected set; }
 
         private void Awake() {
-            movementController = GetComponent<BH_MovementController>();
         }
 
         // Use this for initialization

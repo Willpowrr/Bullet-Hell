@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace BulletHell {
     public class BH_EnemyController : MonoBehaviour {
+        
+        public BH_GameplayController gameplayController { get; protected set; }
 
         [SerializeField]
         protected int startSeed = 0;
@@ -38,6 +40,7 @@ namespace BulletHell {
         private void Awake() {
             CreateEnemyCaches();
             Reset();
+            gameplayController = FindObjectOfType<BH_GameplayController>();
         }
 
         // Use this for initialization
@@ -54,22 +57,33 @@ namespace BulletHell {
                 lastSpawnTime = currentTime;
             }
 
-            CheckActiveEnemyLifeTimes();
+            CheckActiveEnemiesOffscreen();
+            CheckActiveEnemiesEnteredScreen();
         }
 
         #endregion
 
-        protected void CheckActiveEnemyLifeTimes() {
+        protected void CheckActiveEnemiesOffscreen() {
 
             removeList.Clear();
             foreach (BH_Enemy enemyPrefab in enemyTypes) {
                 foreach (BH_Enemy enemyInstance in activeEnemies[enemyPrefab.enemyID]) {
-                    if (enemyInstance.livedItsLife) {
+                    if (enemyInstance.enteredScreen && !gameplayController.IsOnScreen(enemyInstance.transform)) {
                         removeList.Add(enemyInstance);
                     }
                 }
             }
             ClearRemoveList();
+        }
+
+        protected void CheckActiveEnemiesEnteredScreen() {
+            foreach (BH_Enemy enemyPrefab in enemyTypes) {
+                foreach (BH_Enemy enemyInstance in activeEnemies[enemyPrefab.enemyID]) {
+                    if (!enemyInstance.enteredScreen && gameplayController.IsOnScreen(enemyInstance.transform)) {
+                        enemyInstance.enteredScreen = true;
+                    }
+                }
+            }
         }
 
         protected void Reset() {
@@ -85,8 +99,8 @@ namespace BulletHell {
             BH_Enemy enemyInstance = enemyCaches[enemyPrefab.enemyID].Dequeue();
             enemyInstance.Spawn();
             float yPosition = Random.Range(spawnMinYPosition, spawnMaxYPosition);
-            enemyInstance.movementController.position = new Vector3(spawnXPosition, yPosition, 0.0f);
-            enemyInstance.movementController.velocity = new Vector3(-0.1f, 0.0f, 0.0f);
+            enemyInstance.transform.position = new Vector3(spawnXPosition, yPosition, 0.0f);
+            enemyInstance.rigidBody.velocity = new Vector3(-5f, 0.0f, 0.0f);
             activeEnemies[enemyPrefab.enemyID].Add(enemyInstance);
         }
 
@@ -101,9 +115,10 @@ namespace BulletHell {
                 
                 for (int i = 0; i < enemyCacheSize; ++i) {
                     BH_Enemy enemyInstance = Instantiate(enemyPrefab, transform);
-                    enemyInstance.movementController.position = enemyInactivePosition;
-                    enemyInstance.movementController.velocity = Vector3.zero;
+                    enemyInstance.transform.position = enemyInactivePosition;
+                    enemyInstance.rigidBody.velocity = Vector3.zero;
                     enemyInstance.active = false;
+                    enemyInstance.enemyController = this;
                     enemyCaches[enemyPrefab.enemyID].Enqueue(enemyInstance);
                 }
             }
@@ -127,10 +142,10 @@ namespace BulletHell {
             removeList.Clear();
         }
 
-        protected void ReturnEnemy(BH_Enemy p_enemy) {
+        public void ReturnEnemy(BH_Enemy p_enemy) {
             p_enemy.active = false;
-            p_enemy.movementController.position = enemyInactivePosition;
-            p_enemy.movementController.velocity = Vector3.zero;
+            p_enemy.transform.position = enemyInactivePosition;
+            p_enemy.rigidBody.velocity = Vector3.zero;
             activeEnemies[p_enemy.enemyID].Remove(p_enemy);
             enemyCaches[p_enemy.enemyID].Enqueue(p_enemy);
         }

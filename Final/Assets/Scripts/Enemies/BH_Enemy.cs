@@ -7,21 +7,24 @@ namespace BulletHell {
         
         public string enemyID;
 
+        public Rigidbody rigidBody { get; protected set; }
+        public BH_EnemyController enemyController { get; set; }
+
         [SerializeField]
         protected BezierCurve movementCurve;
 
         [SerializeField]
         protected float lifeTime;
 
-        public BH_MovementController movementController { get; protected set; }
+        [SerializeField]
+        protected int startHealth = 1;
 
         public bool active { get; set; }
-        public bool livedItsLife { get { return (Time.time - birthTime) > lifeTime; } }
-
-        protected float birthTime = 0.0f;
+        public int currentHealth { get; protected set; }
+        public bool enteredScreen { get; set; }
 
         private void Awake() {
-            movementController = GetComponent<BH_MovementController>();
+            rigidBody = GetComponent<Rigidbody>();
             active = false;
         }
         
@@ -32,8 +35,16 @@ namespace BulletHell {
         }
 
         public void Spawn() {
-            birthTime = Time.time;
             active = true;
+            currentHealth = startHealth;
+            enteredScreen = false;
+        }
+
+        void OnCollisionEnter(Collision collision) {
+            currentHealth--;
+            if (currentHealth <= 0) {
+                enemyController.ReturnEnemy(this);
+            }
         }
     }
 }
