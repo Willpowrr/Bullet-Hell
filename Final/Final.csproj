@@ -99,6 +99,7 @@
     <Compile Include="Assets\Scripts\Locomotion\GroundDetector.cs" />
     <Compile Include="Assets\Scripts\Locomotion\JumpController.cs" />
     <Compile Include="Assets\Scripts\Locomotion\Jumper.cs" />
+    <Compile Include="Assets\Scripts\Music\BH_MusicController.cs" />
     <Compile Include="Assets\Scripts\Pickup\Pickup.cs" />
     <Compile Include="Assets\Scripts\Pickup\PickupGetter.cs" />
     <Compile Include="Assets\Scripts\Pickup\PickupHealth.cs" />

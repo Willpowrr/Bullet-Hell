@@ -10,11 +10,15 @@ namespace BulletHell {
         public BH_Ship ship { get; protected set; }
         public BH_BulletController bulletController { get; protected set; }
         public BH_PlayerHealthUI playerHealthUI { get; protected set; }
+        public AudioSource audioSource { get; protected set; }
+        public BH_InputController inputController { get; protected set; }
 
         public Vector3 startPosition;
         public Vector3 minPosition;
         public Vector3 maxPosition;
         public int startHealth = 5;
+        public AudioClip shootSoundClip;
+        public float shootSoundVolume;
 
         public int currentHealth { get; protected set; }
 
@@ -24,6 +28,8 @@ namespace BulletHell {
             ship = GetComponentInChildren<BH_Ship>();
             bulletController = GetComponentInChildren<BH_BulletController>();
             playerHealthUI = FindObjectOfType<BH_PlayerHealthUI>();
+            audioSource = GetComponentInChildren<AudioSource>();
+            inputController = GetComponent<BH_InputController>();
         }
 
         // Use this for initialization//
@@ -36,15 +42,50 @@ namespace BulletHell {
 
         // Update is called once per frame
         void Update() {
-            Vector3 position = ship.transform.position;
-            position.x = Mathf.Clamp(ship.transform.position.x, minPosition.x, maxPosition.x);
-            position.y = Mathf.Clamp(ship.transform.position.y, minPosition.y, maxPosition.y);
-            position.z = 0.0f;
-            ship.transform.position = position;
 
             if (Input.GetKey(KeyCode.Space)) {
-                bulletController.Shoot();
+                Shoot();
             }
+            
+            Vector3 direction = Vector3.zero;
+            if (inputController.right) {
+                direction.x = 1.0f;
+                ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Forward;
+            }
+            else if (inputController.left) {
+                direction.x = -1.0f;
+                ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Backward;
+            }
+            else {
+                ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Idle;
+            }
+
+            if (inputController.up) {
+                direction.y = 1.0f;
+                ship.verticalMovementState = BH_Ship.VerticalMovementState.Up;
+            }
+            else if (inputController.down) {
+                direction.y = -1.0f;
+                ship.verticalMovementState = BH_Ship.VerticalMovementState.Down;
+            }
+            else {
+                ship.verticalMovementState = BH_Ship.VerticalMovementState.Idle;
+            }
+
+            Vector3 pos = ship.transform.position + direction * ship.moveSpeed * Time.deltaTime;
+            pos.x = Mathf.Clamp(pos.x, minPosition.x, maxPosition.x);
+            pos.y = Mathf.Clamp(pos.y, minPosition.y, maxPosition.y);
+            pos.z = 0.0f;
+
+            ship.rigidBody.MovePosition(pos);
+        }
+
+        protected void Shoot() {
+            bulletController.Shoot();
+        }
+
+        public void PlayShootSound() {
+            audioSource.PlayOneShot(shootSoundClip, shootSoundVolume);
         }
 
         public void Damage(int p_damage) {
