@@ -10,6 +10,9 @@ namespace BulletHell {
         public Rigidbody rigidBody { get; protected set; }
         public BH_BulletController bulletController { get; set; }
 
+        [SerializeField]
+        protected ParticleSystem hitParticlePrefab;
+
         public void Awake() {
             rigidBody = GetComponent<Rigidbody>();
         }
@@ -29,8 +32,8 @@ namespace BulletHell {
         }
 
         protected void Kill() {
+            FastPoolManager.GetPool(hitParticlePrefab, false).FastInstantiate<ParticleSystem>().transform.position = transform.position;
             bulletController.ReturnBullet(this);
-            bulletController.CreateExplosionParticles(transform.position);
         }
 
         protected void OnFastDestroy() {

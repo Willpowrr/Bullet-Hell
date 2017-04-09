@@ -20,6 +20,11 @@ namespace BulletHell {
         public AudioClip shootSoundClip;
         public float shootSoundVolume;
 
+        [SerializeField]
+        protected Vector3 shootOffset;
+        [SerializeField]
+        protected ParticleSystem shootParticlesPrefab;
+
         public int currentHealth { get; protected set; }
 
         public void Awake() {
@@ -81,7 +86,10 @@ namespace BulletHell {
         }
 
         protected void Shoot() {
-            bulletController.Shoot();
+
+            Vector3 shootPosition = ship.transform.position + shootOffset;
+            bulletController.Shoot(shootPosition);
+            FastPoolManager.GetPool(shootParticlesPrefab, false).FastInstantiate<ParticleSystem>().transform.position = shootPosition;
         }
 
         public void PlayShootSound() {

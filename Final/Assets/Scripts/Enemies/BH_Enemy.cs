@@ -24,6 +24,8 @@ namespace BulletHell {
         protected AudioClip deathSoundClip;
         [SerializeField]
         protected float deathSoundVolume;
+        [SerializeField]
+        protected ParticleSystem deathParticlesPrefab;
 
         public bool active { get; set; }
         public int currentHealth { get; protected set; }
@@ -64,6 +66,8 @@ namespace BulletHell {
         }
 
         protected void Kill() {
+            ParticleSystem deathParticles = FastPoolManager.GetPool(deathParticlesPrefab, false).FastInstantiate<ParticleSystem>();
+            deathParticles.transform.position = transform.position;
             audioSource.PlayOneShot(deathSoundClip, deathSoundVolume);
             enemyController.ReturnEnemy(this);
         }
