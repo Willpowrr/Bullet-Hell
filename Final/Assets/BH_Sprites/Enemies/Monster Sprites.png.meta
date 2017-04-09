@@ -1,0 +1,4966 @@
+fileFormatVersion: 2
+guid: 274d47a6126ee46218f63d35be533040
+timeCreated: 1491450400
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Monster Sprites_0
+    21300002: Monster Sprites_1
+    21300004: Monster Sprites_2
+    21300006: Monster Sprites_3
+    21300008: Monster Sprites_4
+    21300010: Monster Sprites_5
+    21300012: Monster Sprites_6
+    21300014: Monster Sprites_7
+    21300016: Monster Sprites_8
+    21300018: Monster Sprites_9
+    21300020: Monster Sprites_10
+    21300022: Monster Sprites_11
+    21300024: Monster Sprites_12
+    21300026: Monster Sprites_13
+    21300028: Monster Sprites_14
+    21300030: Monster Sprites_15
+    21300032: Monster Sprites_16
+    21300034: Monster Sprites_17
+    21300036: Monster Sprites_18
+    21300038: Monster Sprites_19
+    21300040: Monster Sprites_20
+    21300042: Monster Sprites_21
+    21300044: Monster Sprites_22
+    21300046: Monster Sprites_23
+    21300048: Monster Sprites_24
+    21300050: Monster Sprites_25
+    21300052: Monster Sprites_26
+    21300054: Monster Sprites_27
+    21300056: Monster Sprites_28
+    21300058: Monster Sprites_29
+    21300060: Monster Sprites_30
+    21300062: Monster Sprites_31
+    21300064: Monster Sprites_32
+    21300066: Monster Sprites_33
+    21300068: Monster Sprites_34
+    21300070: Monster Sprites_35
+    21300072: Monster Sprites_36
+    21300074: Monster Sprites_37
+    21300076: Monster Sprites_38
+    21300078: Monster Sprites_39
+    21300080: Monster Sprites_40
+    21300082: Monster Sprites_41
+    21300084: Monster Sprites_42
+    21300086: Monster Sprites_43
+    21300088: Monster Sprites_44
+    21300090: Monster Sprites_45
+    21300092: Monster Sprites_46
+    21300094: Monster Sprites_47
+    21300096: Monster Sprites_48
+    21300098: Monster Sprites_49
+    21300100: Monster Sprites_50
+    21300102: Monster Sprites_51
+    21300104: Monster Sprites_52
+    21300106: Monster Sprites_53
+    21300108: Monster Sprites_54
+    21300110: Monster Sprites_55
+    21300112: Monster Sprites_56
+    21300114: Monster Sprites_57
+    21300116: Monster Sprites_58
+    21300118: Monster Sprites_59
+    21300120: Monster Sprites_60
+    21300122: Monster Sprites_61
+    21300124: Monster Sprites_62
+    21300126: Monster Sprites_63
+    21300128: Monster Sprites_64
+    21300130: Monster Sprites_65
+    21300132: Monster Sprites_66
+    21300134: Monster Sprites_67
+    21300136: Monster Sprites_68
+    21300138: Monster Sprites_69
+    21300140: Monster Sprites_70
+    21300142: Monster Sprites_71
+    21300144: Monster Sprites_72
+    21300146: Monster Sprites_73
+    21300148: Monster Sprites_74
+    21300150: Monster Sprites_75
+    21300152: Monster Sprites_76
+    21300154: Monster Sprites_77
+    21300156: Monster Sprites_78
+    21300158: Monster Sprites_79
+    21300160: Monster Sprites_80
+    21300162: Monster Sprites_81
+    21300164: Monster Sprites_82
+    21300166: Monster Sprites_83
+    21300168: Monster Sprites_84
+    21300170: Monster Sprites_85
+    21300172: Monster Sprites_86
+    21300174: Monster Sprites_87
+    21300176: Monster Sprites_88
+    21300178: Monster Sprites_89
+    21300180: Monster Sprites_90
+    21300182: Monster Sprites_91
+    21300184: Monster Sprites_92
+    21300186: Monster Sprites_93
+    21300188: Monster Sprites_94
+    21300190: Monster Sprites_95
+    21300192: Monster Sprites_96
+    21300194: Monster Sprites_97
+    21300196: Monster Sprites_98
+    21300198: Monster Sprites_99
+    21300200: Monster Sprites_100
+    21300202: Monster Sprites_101
+    21300204: Monster Sprites_102
+    21300206: Monster Sprites_103
+    21300208: Monster Sprites_104
+    21300210: Monster Sprites_105
+    21300212: Monster Sprites_106
+    21300214: Monster Sprites_107
+    21300216: Monster Sprites_108
+    21300218: Monster Sprites_109
+    21300220: Monster Sprites_110
+    21300222: Monster Sprites_111
+    21300224: Monster Sprites_112
+    21300226: Monster Sprites_113
+    21300228: Monster Sprites_114
+    21300230: Monster Sprites_115
+    21300232: Monster Sprites_116
+    21300234: Monster Sprites_117
+    21300236: Monster Sprites_118
+    21300238: Monster Sprites_119
+    21300240: Monster Sprites_120
+    21300242: Monster Sprites_121
+    21300244: Monster Sprites_122
+    21300246: Monster Sprites_123
+    21300248: Monster Sprites_124
+    21300250: Monster Sprites_125
+    21300252: Monster Sprites_126
+    21300254: Monster Sprites_127
+    21300256: Monster Sprites_128
+    21300258: Monster Sprites_129
+    21300260: Monster Sprites_130
+    21300262: Monster Sprites_131
+    21300264: Monster Sprites_132
+    21300266: Monster Sprites_133
+    21300268: Monster Sprites_134
+    21300270: Monster Sprites_135
+    21300272: Monster Sprites_136
+    21300274: Monster Sprites_137
+    21300276: Monster Sprites_138
+    21300278: Monster Sprites_139
+    21300280: Monster Sprites_140
+    21300282: Monster Sprites_141
+    21300284: Monster Sprites_142
+    21300286: Monster Sprites_143
+    21300288: Monster Sprites_144
+    21300290: Monster Sprites_145
+    21300292: Monster Sprites_146
+    21300294: Monster Sprites_147
+    21300296: Monster Sprites_148
+    21300298: Monster Sprites_149
+    21300300: Monster Sprites_150
+    21300302: Monster Sprites_151
+    21300304: Monster Sprites_152
+    21300306: Monster Sprites_153
+    21300308: Monster Sprites_154
+    21300310: Monster Sprites_155
+    21300312: Monster Sprites_156
+    21300314: Monster Sprites_157
+    21300316: Monster Sprites_158
+    21300318: Monster Sprites_159
+    21300320: Monster Sprites_160
+    21300322: Monster Sprites_161
+    21300324: Monster Sprites_162
+    21300326: Monster Sprites_163
+    21300328: Monster Sprites_164
+    21300330: Monster Sprites_165
+    21300332: Monster Sprites_166
+    21300334: Monster Sprites_167
+    21300336: Monster Sprites_168
+    21300338: Monster Sprites_169
+    21300340: Monster Sprites_170
+    21300342: Monster Sprites_171
+    21300344: Monster Sprites_172
+    21300346: Monster Sprites_173
+    21300348: Monster Sprites_174
+    21300350: Monster Sprites_175
+    21300352: Monster Sprites_176
+    21300354: Monster Sprites_177
+    21300356: Monster Sprites_178
+    21300358: Monster Sprites_179
+    21300360: Monster Sprites_180
+    21300362: Monster Sprites_181
+    21300364: Monster Sprites_182
+    21300366: Monster Sprites_183
+    21300368: Monster Sprites_184
+    21300370: Monster Sprites_185
+    21300372: Monster Sprites_186
+    21300374: Monster Sprites_187
+    21300376: Monster Sprites_188
+    21300378: Monster Sprites_189
+    21300380: Monster Sprites_190
+    21300382: Monster Sprites_191
+    21300384: Monster Sprites_192
+    21300386: Monster Sprites_193
+    21300388: Monster Sprites_194
+    21300390: Monster Sprites_195
+    21300392: Monster Sprites_196
+    21300394: Monster Sprites_197
+    21300396: Monster Sprites_198
+    21300398: Monster Sprites_199
+    21300400: Monster Sprites_200
+    21300402: Monster Sprites_201
+    21300404: Monster Sprites_202
+    21300406: Monster Sprites_203
+    21300408: Monster Sprites_204
+    21300410: Monster Sprites_205
+    21300412: Monster Sprites_206
+    21300414: Monster Sprites_207
+    21300416: Monster Sprites_208
+    21300418: Monster Sprites_209
+    21300420: Monster Sprites_210
+    21300422: Monster Sprites_211
+    21300424: Monster Sprites_212
+    21300426: Monster Sprites_213
+    21300428: Monster Sprites_214
+    21300430: Monster Sprites_215
+    21300432: Monster Sprites_216
+    21300434: Monster Sprites_217
+    21300436: Monster Sprites_218
+    21300438: Monster Sprites_219
+    21300440: Monster Sprites_220
+    21300442: Monster Sprites_221
+    21300444: Monster Sprites_222
+    21300446: Monster Sprites_223
+    21300448: Monster Sprites_224
+    21300450: Monster Sprites_225
+    21300452: Monster Sprites_226
+    21300454: Monster Sprites_227
+    21300456: Monster Sprites_228
+    21300458: Monster Sprites_229
+    21300460: Monster Sprites_230
+    21300462: Monster Sprites_231
+    21300464: Monster Sprites_232
+    21300466: Monster Sprites_233
+    21300468: Monster Sprites_234
+    21300470: Monster Sprites_235
+    21300472: Monster Sprites_236
+    21300474: Monster Sprites_237
+    21300476: Monster Sprites_238
+    21300478: Monster Sprites_239
+    21300480: Monster Sprites_240
+    21300482: Monster Sprites_241
+    21300484: Monster Sprites_242
+    21300486: Monster Sprites_243
+    21300488: Monster Sprites_244
+    21300490: Monster Sprites_245
+    21300492: Monster Sprites_246
+    21300494: Monster Sprites_247
+    21300496: Monster Sprites_248
+    21300498: Monster Sprites_249
+    21300500: Monster Sprites_250
+    21300502: Monster Sprites_251
+    21300504: Monster Sprites_252
+    21300506: Monster Sprites_253
+    21300508: Monster Sprites_254
+    21300510: Monster Sprites_255
+    21300512: Monster Sprites_256
+    21300514: Monster Sprites_257
+    21300516: Monster Sprites_258
+    21300518: Monster Sprites_259
+    21300520: Monster Sprites_260
+    21300522: Monster Sprites_261
+    21300524: Monster Sprites_262
+    21300526: Monster Sprites_263
+    21300528: Monster Sprites_264
+    21300530: Monster Sprites_265
+    21300532: Monster Sprites_266
+    21300534: Monster Sprites_267
+    21300536: Monster Sprites_268
+    21300538: Monster Sprites_269
+    21300540: Monster Sprites_270
+    21300542: Monster Sprites_271
+    21300544: Monster Sprites_272
+    21300546: Monster Sprites_273
+    21300548: Monster Sprites_274
+    21300550: Monster Sprites_275
+    21300552: Monster Sprites_276
+    21300554: Monster Sprites_277
+    21300556: Monster Sprites_278
+    21300558: Monster Sprites_279
+    21300560: Monster Sprites_280
+    21300562: Monster Sprites_281
+    21300564: Monster Sprites_282
+    21300566: Monster Sprites_283
+    21300568: Monster Sprites_284
+    21300570: Monster Sprites_285
+    21300572: Monster Sprites_286
+    21300574: Monster Sprites_287
+    21300576: Monster Sprites_288
+    21300578: Monster Sprites_289
+    21300580: Monster Sprites_290
+    21300582: Monster Sprites_291
+    21300584: Monster Sprites_292
+    21300586: Monster Sprites_293
+    21300588: Monster Sprites_294
+    21300590: Monster Sprites_295
+    21300592: Monster Sprites_296
+    21300594: Monster Sprites_297
+    21300596: Monster Sprites_298
+    21300598: Monster Sprites_299
+    21300600: Monster Sprites_300
+    21300602: Monster Sprites_301
+    21300604: Monster Sprites_302
+    21300606: Monster Sprites_303
+    21300608: Monster Sprites_304
+    21300610: Monster Sprites_305
+    21300612: Monster Sprites_306
+    21300614: Monster Sprites_307
+    21300616: Monster Sprites_308
+    21300618: Monster Sprites_309
+    21300620: Monster Sprites_310
+    21300622: Monster Sprites_311
+    21300624: Monster Sprites_312
+    21300626: Monster Sprites_313
+    21300628: Monster Sprites_314
+    21300630: Monster Sprites_315
+    21300632: Monster Sprites_316
+    21300634: Monster Sprites_317
+    21300636: Monster Sprites_318
+    21300638: Monster Sprites_319
+    21300640: Monster Sprites_320
+    21300642: Monster Sprites_321
+    21300644: Monster Sprites_322
+    21300646: Monster Sprites_323
+    21300648: Monster Sprites_324
+    21300650: Monster Sprites_325
+    21300652: Monster Sprites_326
+    21300654: Monster Sprites_327
+    21300656: Monster Sprites_328
+    21300658: Monster Sprites_329
+    21300660: Monster Sprites_330
+    21300662: Monster Sprites_331
+    21300664: Monster Sprites_332
+    21300666: Monster Sprites_333
+    21300668: Monster Sprites_334
+    21300670: Monster Sprites_335
+    21300672: Monster Sprites_336
+    21300674: Monster Sprites_337
+    21300676: Monster Sprites_338
+    21300678: Monster Sprites_339
+    21300680: Monster Sprites_340
+    21300682: Monster Sprites_341
+    21300684: Monster Sprites_342
+    21300686: Monster Sprites_343
+    21300688: Monster Sprites_344
+    21300690: Monster Sprites_345
+    21300692: Monster Sprites_346
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1982
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1988
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1982
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1994
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1988
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1991
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1980
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1979
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1979
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1978
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1982
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1942
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1952
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1974
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1980
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1941
+        width: 86
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1927
+        width: 58
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1986
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1986
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1978
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1936
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1924
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1928
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1928
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1932
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1924
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1930
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1930
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1922
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1935
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1923
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1925
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1926
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1928
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1921
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1927
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1921
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1798
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1858
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1864
+        width: 93
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1850
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1869
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1867
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1832
+        width: 109
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1832
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 1870
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1868
+        width: 89
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1833
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1812
+        width: 90
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1805
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1808
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1800
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1827
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1793
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1797
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1796
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1793
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1687
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1676
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1676
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1676
+        width: 120
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1676
+        width: 116
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1676
+        width: 120
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1669
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1669
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1669
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1540
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1552
+        width: 104
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1564
+        width: 118
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1550
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1537
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1542
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1566
+        width: 112
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1544
+        width: 109
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1556
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1412
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1429
+        width: 120
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1429
+        width: 120
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1425
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1428
+        width: 120
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1424
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1424
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1408
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1408
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1284
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1296
+        width: 112
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1280
+        width: 115
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1296
+        width: 118
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1296
+        width: 112
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1281
+        width: 114
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1280
+        width: 115
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1281
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1281
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1164
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1164
+        width: 111
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1152
+        width: 111
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1156
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1159
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1153
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1153
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1153
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1153
+        width: 112
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1028
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_157
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_158
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_159
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1032
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_160
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 906
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_161
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 906
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_162
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 906
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_163
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 906
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_164
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 904
+        width: 120
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_165
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 904
+        width: 120
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_166
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 904
+        width: 120
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_167
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 904
+        width: 120
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_168
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 907
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_169
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 907
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_170
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 907
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_171
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 907
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_172
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 907
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_173
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 907
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_174
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 907
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_175
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 907
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_176
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 808
+        width: 106
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_177
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 808
+        width: 120
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_178
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 808
+        width: 120
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_179
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 804
+        width: 120
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_180
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 804
+        width: 120
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_181
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 804
+        width: 120
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_182
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 804
+        width: 120
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_183
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 804
+        width: 240
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_184
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 854
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_185
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 848
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_186
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 863
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_187
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 848
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_188
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 851
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_189
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 866
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_190
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 859
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_191
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 857
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_192
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 856
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_193
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 865
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_194
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 848
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_195
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 861
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_196
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 848
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_197
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 850
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_198
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 844
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_199
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 855
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_200
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 861
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_201
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 848
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_202
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 799
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_203
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 827
+        width: 120
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_204
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 802
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_205
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 827
+        width: 120
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_206
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 802
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_207
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 827
+        width: 120
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_208
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 802
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_209
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 827
+        width: 120
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_210
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 803
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_211
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 803
+        width: 120
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_212
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 827
+        width: 120
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_213
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 801
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_214
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 803
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_215
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 827
+        width: 120
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_216
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 801
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_217
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 799
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_218
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 788
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_219
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 779
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_220
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 791
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_221
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 796
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_222
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 782
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_223
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 792
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_224
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 793
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_225
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 784
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_226
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 678
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_227
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 678
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_228
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 678
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_229
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 678
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_230
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 678
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_231
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 678
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_232
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 678
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_233
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 662
+        width: 120
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_234
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 656
+        width: 120
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_235
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 655
+        width: 91
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_236
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 651
+        width: 106
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_237
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 671
+        width: 107
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_238
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 665
+        width: 118
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_239
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 660
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_240
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 671
+        width: 110
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_241
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 671
+        width: 120
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_242
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 551
+        width: 120
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_243
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 551
+        width: 120
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_244
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 539
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_245
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 551
+        width: 120
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_246
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 535
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_247
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 545
+        width: 120
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_248
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 535
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_249
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 535
+        width: 120
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_250
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 540
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_251
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 540
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_252
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 540
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_253
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 540
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_254
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 609
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_255
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 540
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_256
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 606
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_257
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 523
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_258
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 523
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_259
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 523
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_260
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 572
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_261
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 567
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_262
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 526
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_263
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 529
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_264
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 422
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_265
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 416
+        width: 120
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_266
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 422
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_267
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 422
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_268
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 408
+        width: 120
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_269
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 410
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_270
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 406
+        width: 120
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_271
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 406
+        width: 120
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_272
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 412
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_273
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 412
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_274
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 412
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_275
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 412
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_276
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 481
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_277
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 412
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_278
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 478
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_279
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 395
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_280
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 395
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_281
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 395
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_282
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 444
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_283
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 439
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_284
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 398
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_285
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 401
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_286
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 290
+        width: 117
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_287
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 290
+        width: 118
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_288
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 288
+        width: 117
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_289
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 290
+        width: 118
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_290
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 290
+        width: 104
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_291
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 290
+        width: 118
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_292
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 290
+        width: 120
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_293
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 290
+        width: 120
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_294
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 284
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_295
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 284
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_296
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 284
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_297
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 284
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_298
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 353
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_299
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 284
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_300
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 350
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_301
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 267
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_302
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 267
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_303
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 267
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_304
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 316
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_305
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 311
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_306
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 270
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_307
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 273
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_308
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 160
+        width: 119
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_309
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 160
+        width: 119
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_310
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 160
+        width: 104
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_311
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 160
+        width: 120
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_312
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 160
+        width: 119
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_313
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 160
+        width: 119
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_314
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 160
+        width: 119
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_315
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 160
+        width: 119
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_316
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 156
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_317
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 156
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_318
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 156
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_319
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 156
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_320
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 225
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_321
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 156
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_322
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 222
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_323
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 139
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_324
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 139
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_325
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 139
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_326
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 188
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_327
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 183
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_328
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 142
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_329
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 145
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_330
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_331
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_332
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_333
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_334
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_335
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 12
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_336
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 12
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_337
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 12
+        width: 240
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_338
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_339
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 29
+        width: 120
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_340
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_341
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 28
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_342
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_343
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 28
+        width: 120
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_344
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 15
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_345
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 14
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster Sprites_346
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 11
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

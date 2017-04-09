@@ -47,20 +47,3 @@ Temporary Items
 .apdisk
 
 # Unity Meta files
-Final/Temp/
-Final/Library/
-*.slns
-*.dwlt
-*.csproj
-*.suo
-Final/ProjectSettings/ProjectVersion.txt
-Final/Final.sln
-Final/Assembly-CSharp.csproj
-Final/Assembly-CSharp-firstpass.csproj
-Final/Assembly-CSharp-Editor-firstpass.csproj
-Final/obj/
-Final/Builds/
-Final/
-Final/Builds/BulletHell_Data/globalgamemanagers
-Final/Builds/BulletHell_Data/Managed/Assembly-CSharp.dll
-Final/Final.sln
