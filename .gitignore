@@ -47,7 +47,6 @@ Temporary Items
 .apdisk
 
 # Unity Meta files
-*.meta
 Final/Temp/
 Final/Library/
 *.slns
