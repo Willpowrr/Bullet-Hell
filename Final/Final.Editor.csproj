@@ -139,11 +139,17 @@
     <Compile Include="Assets\FastPool\Editor\FPUniversalDespawnerEditor.cs" />
     <Compile Include="Assets\FastPool\Editor\FastPoolEditor.cs" />
     <Compile Include="Assets\FastPool\Editor\FastPoolManagerEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\AssetGUIDs.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\EditorStartupPrefs.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerEditorStartup.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerWelcomeWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PreUpdateChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BH_Sprites\Outlined-Silhouette Only.shader" />
     <None Include="Assets\BezierCurves\readme.txt" />
     <None Include="Assets\FastPool\Documentation\ChangeLog.txt" />
+    <None Include="Assets\PlayMaker\Editor\Install\readme.txt" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />

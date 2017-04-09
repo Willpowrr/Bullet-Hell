@@ -4,12 +4,13 @@ using UnityEngine;
 
 namespace BulletHell {
     public class BH_Enemy : MonoBehaviour {
-        
-        public string enemyID;
+
+        public string id;
 
         public Rigidbody rigidBody { get; protected set; }
         public BH_EnemyController enemyController { get; set; }
         public AudioSource audioSource { get; protected set; }
+        public BH_Enemy prefab { get; set; }
 
         [SerializeField]
         protected BezierCurve movementCurve;
@@ -70,6 +71,10 @@ namespace BulletHell {
             deathParticles.transform.position = transform.position;
             audioSource.PlayOneShot(deathSoundClip, deathSoundVolume);
             enemyController.ReturnEnemy(this);
+        }
+
+        protected void OnFastDestroy() {
+
         }
     }
 }

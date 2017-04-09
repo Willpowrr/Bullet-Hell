@@ -33,14 +33,16 @@ namespace BulletHell {
 
         protected float lastSpawnTime = 0.0f;
         protected Dictionary<string, List<BH_Enemy>> activeEnemies = new Dictionary<string, List<BH_Enemy>>();
-        protected Dictionary<string, Queue<BH_Enemy>> enemyCaches = new Dictionary<string, Queue<BH_Enemy>>();
-
         protected List<BH_Enemy> removeList = new List<BH_Enemy>();
 
         #region Unity Functions
 
         private void Awake() {
-            CreateEnemyCaches();
+
+            foreach (BH_Enemy enemy in enemyTypes) {
+                activeEnemies.Add(enemy.id, new List<BH_Enemy>());
+            }
+
             Reset();
             gameplayController = FindObjectOfType<BH_GameplayController>();
         }
@@ -69,7 +71,7 @@ namespace BulletHell {
 
             removeList.Clear();
             foreach (BH_Enemy enemyPrefab in enemyTypes) {
-                foreach (BH_Enemy enemyInstance in activeEnemies[enemyPrefab.enemyID]) {
+                foreach (BH_Enemy enemyInstance in activeEnemies[enemyPrefab.id]) {
                     if (enemyInstance.enteredScreen && !gameplayController.IsOnScreen(enemyInstance.transform)) {
                         removeList.Add(enemyInstance);
                     }
@@ -80,7 +82,7 @@ namespace BulletHell {
 
         protected void CheckActiveEnemiesEnteredScreen() {
             foreach (BH_Enemy enemyPrefab in enemyTypes) {
-                foreach (BH_Enemy enemyInstance in activeEnemies[enemyPrefab.enemyID]) {
+                foreach (BH_Enemy enemyInstance in activeEnemies[enemyPrefab.id]) {
                     if (!enemyInstance.enteredScreen && gameplayController.IsOnScreen(enemyInstance.transform)) {
                         enemyInstance.enteredScreen = true;
                     }
@@ -98,38 +100,20 @@ namespace BulletHell {
         protected void SpawnEnemy() {
             int enemyIndex = Random.Range(0, enemyTypes.Count);
             BH_Enemy enemyPrefab = enemyTypes[enemyIndex];
-            BH_Enemy enemyInstance = enemyCaches[enemyPrefab.enemyID].Dequeue();
+            BH_Enemy enemyInstance = FastPoolManager.GetPool(enemyPrefab, false).FastInstantiate<BH_Enemy>();
+            enemyInstance.prefab = enemyPrefab;
             enemyInstance.Spawn();
+            enemyInstance.enemyController = this;
             float yPosition = Random.Range(spawnMinYPosition, spawnMaxYPosition);
             enemyInstance.transform.position = new Vector3(spawnXPosition, yPosition, 0.0f);
             enemyInstance.rigidBody.velocity = new Vector3(-enemyMoveSpeed, 0.0f, 0.0f);
-            activeEnemies[enemyPrefab.enemyID].Add(enemyInstance);
-        }
-
-        protected void CreateEnemyCaches() {
-
-            enemyCaches.Clear();
-            activeEnemies.Clear();
-
-            foreach (BH_Enemy enemyPrefab in enemyTypes) {
-                enemyCaches.Add(enemyPrefab.enemyID, new Queue<BH_Enemy>());
-                activeEnemies.Add(enemyPrefab.enemyID, new List<BH_Enemy>());
-                
-                for (int i = 0; i < enemyCacheSize; ++i) {
-                    BH_Enemy enemyInstance = Instantiate(enemyPrefab, transform);
-                    enemyInstance.transform.position = enemyInactivePosition;
-                    enemyInstance.rigidBody.velocity = Vector3.zero;
-                    enemyInstance.active = false;
-                    enemyInstance.enemyController = this;
-                    enemyCaches[enemyPrefab.enemyID].Enqueue(enemyInstance);
-                }
-            }
+            activeEnemies[enemyPrefab.id].Add(enemyInstance);
         }
 
         protected void ReturnAllEnemies() {
             removeList.Clear();
             foreach (BH_Enemy enemyPrefab in enemyTypes) {
-                foreach (BH_Enemy enemy in activeEnemies[enemyPrefab.enemyID]) {
+                foreach (BH_Enemy enemy in activeEnemies[enemyPrefab.id]) {
                     removeList.Add(enemy);
                 }
             }
@@ -148,8 +132,8 @@ namespace BulletHell {
             p_enemy.active = false;
             p_enemy.transform.position = enemyInactivePosition;
             p_enemy.rigidBody.velocity = Vector3.zero;
-            activeEnemies[p_enemy.enemyID].Remove(p_enemy);
-            enemyCaches[p_enemy.enemyID].Enqueue(p_enemy);
+            activeEnemies[p_enemy.id].Remove(p_enemy);
+            FastPoolManager.GetPool(p_enemy.prefab, false).FastDestroy(p_enemy.gameObject);
         }
     }
 }
