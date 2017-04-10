@@ -6,6 +6,7 @@ namespace BulletHell {
     public class BH_ScoreController : MonoBehaviour {
 
         public BH_PlayerScoreUI playerScoreUI { get; protected set; }
+        public BH_GameplayController gameplayController { get; protected set; }
 
         [SerializeField]
         protected float timeScale = 1.0f;
@@ -13,6 +14,7 @@ namespace BulletHell {
         public int score { get; protected set; }
 
         void Awake() {
+            gameplayController = GetComponent<BH_GameplayController>();
             playerScoreUI = FindObjectOfType<BH_PlayerScoreUI>();
         }
 
@@ -22,8 +24,10 @@ namespace BulletHell {
         }
 
         void Update() {
-            score += (int)(Time.deltaTime * timeScale);
-            playerScoreUI.SetScore(score);
+            if (gameplayController.player.alive) {
+                score += (int)(Time.deltaTime * timeScale);
+                playerScoreUI.SetScore(score);
+            }
         }
     }
 }

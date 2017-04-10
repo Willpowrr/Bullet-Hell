@@ -12,8 +12,7 @@ namespace BulletHell {
         public BH_PlayerHealthUI playerHealthUI { get; protected set; }
         public AudioSource audioSource { get; protected set; }
         public BH_InputController inputController { get; protected set; }
-
-        public Vector3 startPosition;
+        
         public Vector3 minPosition;
         public Vector3 maxPosition;
         public int startHealth = 5;
@@ -24,8 +23,15 @@ namespace BulletHell {
         protected Vector3 shootOffset;
         [SerializeField]
         protected ParticleSystem shootParticlesPrefab;
+        [SerializeField]
+        protected ParticleSystem deathParticlesPrefab;
+        [SerializeField]
+        protected ParticleSystem deadParticlesPrefab;
 
         public int currentHealth { get; protected set; }
+        public bool alive { get { return currentHealth > 0; } }
+        public bool inputActive { get; set; }
+        public Vector3 shipPosition { get { return ship.transform.position; } set { ship.transform.position = value; } }
 
         public void Awake() {
 
@@ -40,49 +46,55 @@ namespace BulletHell {
         // Use this for initialization//
         void Start() {
 
-            ship.transform.position = startPosition;
+            Reset();
             currentHealth = startHealth;
             playerHealthUI.Initialize(startHealth);
+        }
+
+        public void Reset() {
+            inputActive = false;
         }
 
         // Update is called once per frame
         void Update() {
 
-            if (Input.GetKey(KeyCode.Space)) {
-                Shoot();
-            }
-            
-            Vector3 direction = Vector3.zero;
-            if (inputController.right) {
-                direction.x = 1.0f;
-                ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Forward;
-            }
-            else if (inputController.left) {
-                direction.x = -1.0f;
-                ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Backward;
-            }
-            else {
-                ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Idle;
-            }
+            if (alive && inputActive) {
+                if (Input.GetKey(KeyCode.Space)) {
+                    Shoot();
+                }
 
-            if (inputController.up) {
-                direction.y = 1.0f;
-                ship.verticalMovementState = BH_Ship.VerticalMovementState.Up;
-            }
-            else if (inputController.down) {
-                direction.y = -1.0f;
-                ship.verticalMovementState = BH_Ship.VerticalMovementState.Down;
-            }
-            else {
-                ship.verticalMovementState = BH_Ship.VerticalMovementState.Idle;
-            }
+                Vector3 direction = Vector3.zero;
+                if (inputController.right) {
+                    direction.x = 1.0f;
+                    ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Forward;
+                }
+                else if (inputController.left) {
+                    direction.x = -1.0f;
+                    ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Backward;
+                }
+                else {
+                    ship.horizontalMovementState = BH_Ship.HorizontalMovementState.Idle;
+                }
 
-            Vector3 pos = ship.transform.position + direction * ship.moveSpeed * Time.deltaTime;
-            pos.x = Mathf.Clamp(pos.x, minPosition.x, maxPosition.x);
-            pos.y = Mathf.Clamp(pos.y, minPosition.y, maxPosition.y);
-            pos.z = 0.0f;
+                if (inputController.up) {
+                    direction.y = 1.0f;
+                    ship.verticalMovementState = BH_Ship.VerticalMovementState.Up;
+                }
+                else if (inputController.down) {
+                    direction.y = -1.0f;
+                    ship.verticalMovementState = BH_Ship.VerticalMovementState.Down;
+                }
+                else {
+                    ship.verticalMovementState = BH_Ship.VerticalMovementState.Idle;
+                }
 
-            ship.rigidBody.MovePosition(pos);
+                Vector3 pos = ship.transform.position + direction * ship.moveSpeed * Time.deltaTime;
+                pos.x = Mathf.Clamp(pos.x, minPosition.x, maxPosition.x);
+                pos.y = Mathf.Clamp(pos.y, minPosition.y, maxPosition.y);
+                pos.z = 0.0f;
+
+                ship.rigidBody.MovePosition(pos);
+            }
         }
 
         protected void Shoot() {
@@ -97,9 +109,20 @@ namespace BulletHell {
         }
 
         public void Damage(int p_damage) {
-            currentHealth -= p_damage;
-            currentHealth = Mathf.Max(0, currentHealth);
+            if (alive) {
+                currentHealth -= p_damage;
+                currentHealth = Mathf.Max(0, currentHealth);
+                if (currentHealth == 0) {
+                    Kill();
+                }
+            }
             playerHealthUI.UpdateHealth(currentHealth);
+        }
+
+        protected void Kill() {
+            FastPoolManager.GetPool(deathParticlesPrefab, false).FastInstantiate<ParticleSystem>().transform.position = ship.transform.position;
+            FastPoolManager.GetPool(deadParticlesPrefab, false).FastInstantiate<ParticleSystem>().transform.position = ship.transform.position;
+            ship.gameObject.SetActive(false);
         }
     }
 }
