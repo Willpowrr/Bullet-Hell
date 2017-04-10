@@ -13,6 +13,8 @@ namespace BulletHell {
         public bool gameActive { get; set; }
         public BH_Engine engine { get; protected set; }
 
+        public Vector2 screenBounds;
+
         private void Awake() {
             player = GetComponentInChildren<BH_Player>();
             cameraController = GetComponentInChildren<BH_CameraController>();
