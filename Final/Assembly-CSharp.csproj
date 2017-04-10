@@ -905,8 +905,10 @@
      <Compile Include="Assets\Scripts\Destructible\Destructor.cs" />
      <Compile Include="Assets\Scripts\Enemies\BH_Enemy.cs" />
      <Compile Include="Assets\Scripts\Enemies\BH_EnemyController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Bouncer\BH_Bouncer.cs" />
      <Compile Include="Assets\Scripts\Enemies\Dumbass\BH_DumbassEnemy.cs" />
      <Compile Include="Assets\Scripts\Engine\BH_Engine.cs" />
+     <Compile Include="Assets\Scripts\Fast Pool\FastPoolStubs.cs" />
      <Compile Include="Assets\Scripts\Game\Game.cs" />
      <Compile Include="Assets\Scripts\Gameplay\BH_GameplayController.cs" />
      <Compile Include="Assets\Scripts\Gameplay\BH_ScoreController.cs" />
