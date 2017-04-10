@@ -2,25 +2,40 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\player\bh_bulletcontroller.cs</string>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\gameplay\bh_scorecontroller.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\bullet\bh_bullet.cs</string>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\gameplay\bh_gameplaycontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\player\bh_player.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\engine\bh_engine.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\ui\bh_playerscoreui.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\enemies\dumbass\bh_dumbassenemy.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\enemies\bouncer\bh_bouncer.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\enemies\bh_enemy.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Bullet-Hell\Final\Assets\Scripts\Player\BH_Player.cs</string>
+      <string>C:\Users\Will\Documents\Projects\Bullet-Hell\Final\Assets\Scripts\Enemies\BH_EnemyController.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\gameplay\bh_scorecontroller.cs</string>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\player\bh_bulletcontroller.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\will\documents\projects\bullet-hell\final\assets\fastpool\scripts\fastpool.cs</string>
+      <string>C:\Users\Will\Documents\Projects\Bullet-Hell\Final\Assets\FastPool\Scripts\FastPool.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\enemies\bh_enemycontroller.cs</string>
+      <string>C:\Users\Will\Documents\Projects\Bullet-Hell\Final\Assets\Scripts\Fast Pool\FastPoolStubs.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
