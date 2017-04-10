@@ -15,13 +15,13 @@ namespace BulletHell {
             if (enteredScreen) {
                 Vector3 velocity = rigidBody.velocity;
                 if (velocity.y > 0) {
-                    if (transform.position.y > gameplayController.screenBounds.y) {
+                    if (rigidBody.transform.position.y > gameplayController.screenBounds.y) {
                         velocity.y *= -1.0f;
                         rigidBody.velocity = velocity;
                     }
                 }
                 else {
-                    if (transform.position.y < -gameplayController.screenBounds.y) {
+                    if (rigidBody.transform.position.y < -gameplayController.screenBounds.y) {
                         velocity.y *= -1.0f;
                         rigidBody.velocity = velocity;
                     }

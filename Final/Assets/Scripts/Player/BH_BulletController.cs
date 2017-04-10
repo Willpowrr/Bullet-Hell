@@ -7,10 +7,8 @@ namespace BulletHell {
 
         public BH_CameraController cameraController { get; protected set; }
         public BH_Player player { get; protected set; }
-
-        public int bulletCacheSize = 30;
+        
         public BH_Bullet bulletPrefab;
-        public Vector3 inactivePosition;
         public float bulletVelocity = 1.0f;
         public float shootFrequency = 0.1f;
 
@@ -36,8 +34,6 @@ namespace BulletHell {
 
         public void ReturnBullet(BH_Bullet p_bullet) {
             activeBullets.Remove(p_bullet);
-            p_bullet.transform.position = inactivePosition;
-            p_bullet.transform.position = inactivePosition;
             p_bullet.rigidBody.velocity = Vector3.zero;
             p_bullet.transform.SetParent(FastPoolManager.Instance.transform);
             p_bullet.bulletController = null;
