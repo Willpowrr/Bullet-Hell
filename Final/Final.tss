@@ -11,13 +11,13 @@
       <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\enemies\bh_enemy.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\player\bh_player.cs</string>
+      <string>C:\Users\Will\Documents\Projects\Bullet-Hell\Final\Assets\Scripts\Player\BH_Player.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\gameplay\bh_scorecontroller.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\Will\Documents\Projects\Bullet-Hell\Final\Assets\FastPool\Scripts\FastPool.cs</string>
+      <string>c:\users\will\documents\projects\bullet-hell\final\assets\fastpool\scripts\fastpool.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>c:\users\will\documents\projects\bullet-hell\final\assets\scripts\enemies\bh_enemycontroller.cs</string>
