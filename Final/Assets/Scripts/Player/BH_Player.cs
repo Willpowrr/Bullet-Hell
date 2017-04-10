@@ -14,6 +14,8 @@ namespace BulletHell {
         public BH_InputController inputController { get; protected set; }
         public BH_GameplayController gameplayController { get; protected set; }
         
+        public Vector3 minPosition;
+        public Vector3 maxPosition;
         public int startHealth = 5;
         public AudioClip shootSoundClip;
         public float shootSoundVolume;
@@ -96,8 +98,8 @@ namespace BulletHell {
                 }
 
                 Vector3 pos = ship.transform.position + direction * ship.moveSpeed * Time.deltaTime;
-                pos.x = Mathf.Clamp(pos.x, -gameplayController.screenBounds.x, gameplayController.screenBounds.x);
-                pos.y = Mathf.Clamp(pos.y, -gameplayController.screenBounds.y, gameplayController.screenBounds.y);
+                pos.x = Mathf.Clamp(pos.x, minPosition.x, maxPosition.x);
+                pos.y = Mathf.Clamp(pos.y, minPosition.y, maxPosition.y);
                 pos.z = 0.0f;
 
                 ship.rigidBody.MovePosition(pos);
