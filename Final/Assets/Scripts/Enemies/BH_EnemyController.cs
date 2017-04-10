@@ -34,6 +34,7 @@ namespace BulletHell {
         protected float lastSpawnTime = 0.0f;
         protected Dictionary<string, List<BH_Enemy>> activeEnemies = new Dictionary<string, List<BH_Enemy>>();
         protected List<BH_Enemy> removeList = new List<BH_Enemy>();
+        public bool canSpawnEnemies { get; set; }
 
         #region Unity Functions
 
@@ -55,10 +56,12 @@ namespace BulletHell {
         // Update is called once per frame
         void Update() {
 
-            float currentTime = Time.fixedTime;
-            if (currentTime - lastSpawnTime > spawnFrequency) {
-                SpawnEnemy();
-                lastSpawnTime = currentTime;
+            if (canSpawnEnemies) {
+                float currentTime = Time.fixedTime;
+                if (currentTime - lastSpawnTime > spawnFrequency) {
+                    SpawnEnemy();
+                    lastSpawnTime = currentTime;
+                }
             }
 
             CheckActiveEnemiesOffscreen();
@@ -91,6 +94,7 @@ namespace BulletHell {
         }
 
         protected void Reset() {
+            canSpawnEnemies = false;
             lastSpawnTime = 0.0f;
             ReturnAllEnemies();
             Random.InitState(startSeed);

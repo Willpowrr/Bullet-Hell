@@ -12,8 +12,7 @@ namespace BulletHell {
         public BH_PlayerHealthUI playerHealthUI { get; protected set; }
         public AudioSource audioSource { get; protected set; }
         public BH_InputController inputController { get; protected set; }
-
-        public Vector3 startPosition;
+        
         public Vector3 minPosition;
         public Vector3 maxPosition;
         public int startHealth = 5;
@@ -31,6 +30,8 @@ namespace BulletHell {
 
         public int currentHealth { get; protected set; }
         public bool alive { get { return currentHealth > 0; } }
+        public bool inputActive { get; set; }
+        public Vector3 shipPosition { get { return ship.transform.position; } set { ship.transform.position = value; } }
 
         public void Awake() {
 
@@ -45,15 +46,19 @@ namespace BulletHell {
         // Use this for initialization//
         void Start() {
 
-            ship.transform.position = startPosition;
+            Reset();
             currentHealth = startHealth;
             playerHealthUI.Initialize(startHealth);
+        }
+
+        public void Reset() {
+            inputActive = false;
         }
 
         // Update is called once per frame
         void Update() {
 
-            if (alive) {
+            if (alive && inputActive) {
                 if (Input.GetKey(KeyCode.Space)) {
                     Shoot();
                 }
