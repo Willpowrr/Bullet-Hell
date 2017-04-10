@@ -20,9 +20,6 @@ namespace BulletHell {
         protected List<BH_Enemy> enemyTypes = new List<BH_Enemy>();
 
         [SerializeField]
-        protected float spawnFrequency = 5.0f;
-
-        [SerializeField]
         protected float spawnMaxYPosition = 4.0f;
         [SerializeField]
         protected float spawnMinYPosition = -4.0f;
@@ -30,11 +27,18 @@ namespace BulletHell {
         protected float spawnXPosition = 10.0f;
         [SerializeField]
         protected float enemyMoveSpeed = 7.5f;
+        [SerializeField]
+        protected AnimationCurve spawnFrequencyCurve;
+        [SerializeField]
+        protected float spawnFrequencyMax;
+        [SerializeField]
+        protected float spawnFrequencyScale;
 
         protected float lastSpawnTime = 0.0f;
         protected Dictionary<string, List<BH_Enemy>> activeEnemies = new Dictionary<string, List<BH_Enemy>>();
         protected List<BH_Enemy> removeList = new List<BH_Enemy>();
         public bool canSpawnEnemies { get; set; }
+        public float startTime { get; protected set; }
 
         #region Unity Functions
 
@@ -43,14 +47,13 @@ namespace BulletHell {
             foreach (BH_Enemy enemy in enemyTypes) {
                 activeEnemies.Add(enemy.id, new List<BH_Enemy>());
             }
-
-            Reset();
+            
             gameplayController = FindObjectOfType<BH_GameplayController>();
         }
 
         // Use this for initialization
         void Start() {
-            lastSpawnTime = 0.0f;
+            Reset();
         }
 
         // Update is called once per frame
@@ -58,6 +61,9 @@ namespace BulletHell {
 
             if (canSpawnEnemies) {
                 float currentTime = Time.fixedTime;
+
+
+                float spawnFrequency = spawnFrequencyCurve.Evaluate(Mathf.Min((currentTime - startTime) * spawnFrequencyScale, 1.0f));
                 if (currentTime - lastSpawnTime > spawnFrequency) {
                     SpawnEnemy();
                     lastSpawnTime = currentTime;
@@ -93,7 +99,7 @@ namespace BulletHell {
             }
         }
 
-        protected void Reset() {
+        public void Reset() {
             canSpawnEnemies = false;
             lastSpawnTime = 0.0f;
             ReturnAllEnemies();
@@ -101,16 +107,19 @@ namespace BulletHell {
             removeList.Clear();
         }
 
+        public void InitGameplay() {
+            startTime = Time.fixedTime;
+        }
+
         protected void SpawnEnemy() {
             int enemyIndex = Random.Range(0, enemyTypes.Count);
             BH_Enemy enemyPrefab = enemyTypes[enemyIndex];
             BH_Enemy enemyInstance = FastPoolManager.GetPool(enemyPrefab, false).FastInstantiate<BH_Enemy>();
             enemyInstance.prefab = enemyPrefab;
-            enemyInstance.Spawn();
             enemyInstance.enemyController = this;
             float yPosition = Random.Range(spawnMinYPosition, spawnMaxYPosition);
             enemyInstance.transform.position = new Vector3(spawnXPosition, yPosition, 0.0f);
-            enemyInstance.rigidBody.velocity = new Vector3(-enemyMoveSpeed, 0.0f, 0.0f);
+            enemyInstance.Spawn();
             activeEnemies[enemyPrefab.id].Add(enemyInstance);
         }
 

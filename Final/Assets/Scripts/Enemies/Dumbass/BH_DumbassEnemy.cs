@@ -5,14 +5,17 @@ using UnityEngine;
 namespace BulletHell {
     public class BH_DumbassEnemy : BH_Enemy {
 
-        // Use this for initialization
-        void Start() {
-
+        public override void Start() {
+            base.Start();
         }
 
-        // Update is called once per frame
-        void Update() {
+        public override void Update() {
+            base.Update();
+        }
 
+        public override void Spawn() {
+            base.Spawn();
+            rigidBody.velocity = spawnVelocity;
         }
     }
 }

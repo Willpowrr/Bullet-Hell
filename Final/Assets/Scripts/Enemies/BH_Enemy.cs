@@ -11,12 +11,13 @@ namespace BulletHell {
         public BH_EnemyController enemyController { get; set; }
         public AudioSource audioSource { get; protected set; }
         public BH_Enemy prefab { get; set; }
+        public BH_GameplayController gameplayController { get; protected set; }
+
+        [SerializeField]
+        protected Vector3 spawnVelocity;
 
         [SerializeField]
         protected BezierCurve movementCurve;
-
-        [SerializeField]
-        protected float lifeTime;
 
         [SerializeField]
         protected int startHealth = 1;
@@ -36,15 +37,16 @@ namespace BulletHell {
             rigidBody = GetComponent<Rigidbody>();
             audioSource = GetComponent<AudioSource>();
             active = false;
-        }
-        
-        void Start() {
-        }
-        
-        void Update() {
+            gameplayController = FindObjectOfType<BH_GameplayController>();
         }
 
-        public void Spawn() {
+        public virtual void Start() {
+        }
+        
+        public virtual void Update() {
+        }
+
+        public virtual void Spawn() {
             active = true;
             currentHealth = startHealth;
             enteredScreen = false;
