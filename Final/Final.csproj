@@ -73,14 +73,14 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="TextMeshPro">
-      <HintPath>Assets\TextMesh Pro\Plugins\TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="ConditionalExpression">
       <HintPath>Assets\PlayMaker\ConditionalExpression.dll</HintPath>
     </Reference>
     <Reference Include="PlayMaker">
       <HintPath>Assets\Plugins\PlayMaker\PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro">
+      <HintPath>Assets\TextMesh Pro\Plugins\TextMeshPro.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
