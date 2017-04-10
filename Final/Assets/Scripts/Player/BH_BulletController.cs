@@ -9,16 +9,9 @@ namespace BulletHell {
         public BH_Player player { get; protected set; }
         
         public BH_Bullet bulletPrefab;
-        public float bulletVelocity = 1.0f;
-        public float shootFrequency = 0.1f;
-
-        protected float lastShotTime = 0.0f;
 
         protected List<BH_Bullet> activeBullets = new List<BH_Bullet>();
         protected List<BH_Bullet> bulletRemoveList = new List<BH_Bullet>();
-
-        [SerializeField]
-        protected Transform bulletsContainer;
 
         private void Awake() {
             cameraController = FindObjectOfType<BH_CameraController>();
@@ -26,7 +19,7 @@ namespace BulletHell {
         }
 
         protected BH_Bullet GetBullet() {
-            BH_Bullet bullet = FastPoolManager.GetPool(bulletPrefab, false).FastInstantiate<BH_Bullet>(bulletsContainer.transform);
+            BH_Bullet bullet = FastPoolManager.GetPool(bulletPrefab, false).FastInstantiate<BH_Bullet>(transform);
             bullet.bulletController = this;
             activeBullets.Add(bullet);
             return bullet;
@@ -67,18 +60,11 @@ namespace BulletHell {
             }
         }
 
-        public void Shoot(Vector3 p_position) {
+        public void Shoot(Vector3 p_position, Vector3 p_bulletVelocity) {
 
-            float currentTime = Time.time;
-            if (currentTime - lastShotTime > shootFrequency) {
-                BH_Bullet bullet = GetBullet();
-                bullet.transform.position = p_position;
-                bullet.rigidBody.velocity = new Vector3(bulletVelocity, 0.0f, 0.0f);
-                if (player != null) {
-                    player.PlayShootSound();
-                }
-                lastShotTime = currentTime;
-            }
+            BH_Bullet bullet = GetBullet();
+            bullet.transform.position = p_position;
+            bullet.rigidBody.velocity = p_bulletVelocity;
         }
     }
 }

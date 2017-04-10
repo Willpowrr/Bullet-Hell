@@ -30,10 +30,17 @@ namespace BulletHell {
         protected ParticleSystem deathParticlesPrefab;
         [SerializeField]
         protected Vector3 spawnVelocity;
+        [SerializeField]
+        protected bool shootsBullets;
+        [SerializeField]
+        protected float shootVelocity;
+        [SerializeField]
+        protected float shootFrequency;
 
         public bool active { get; set; }
         public int currentHealth { get; protected set; }
         public bool enteredScreen { get; set; }
+        protected float lastShotTime = 0.0f;
 
         private void Awake() {
             rigidBody = GetComponent<Rigidbody>();
@@ -46,12 +53,25 @@ namespace BulletHell {
         }
 
         public virtual void Update() {
+
+            if (shootsBullets) {
+                Vector3 shootPosition = transform.position;
+                float currentTime = Time.time;
+                if (currentTime - lastShotTime > shootFrequency) {
+                    Vector3 shootVector = gameplayController.player.ship.transform.position - transform.position;
+                    shootVector.Normalize();
+                    shootVector *= shootVelocity;
+                    enemyController.bulletController.Shoot(shootPosition, shootVector);
+                    lastShotTime = currentTime;
+                }
+            }
         }
 
         public virtual void Spawn() {
             active = true;
             currentHealth = startHealth;
             enteredScreen = false;
+            lastShotTime = Time.fixedTime;
         }
 
         private void OnTriggerEnter(Collider other) {

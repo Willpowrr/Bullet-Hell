@@ -26,6 +26,10 @@ namespace BulletHell {
         protected ParticleSystem deathParticlesPrefab;
         [SerializeField]
         protected ParticleSystem deadParticlesPrefab;
+        [SerializeField]
+        protected float bulletVelocity;
+        [SerializeField]
+        protected float shootFrequency;
 
         public ParticleSystem deadParticles { get; protected set; }
 
@@ -33,6 +37,7 @@ namespace BulletHell {
         public bool alive { get { return currentHealth > 0; } }
         public bool inputActive { get; set; }
         public Vector3 shipPosition { get { return ship.transform.position; } set { ship.transform.position = value; } }
+        protected float lastShotTime = 0.0f;
 
         public void Awake() {
 
@@ -107,8 +112,17 @@ namespace BulletHell {
         protected void Shoot() {
 
             Vector3 shootPosition = ship.transform.position + shootOffset;
-            bulletController.Shoot(shootPosition);
-            FastPoolManager.GetPool(shootParticlesPrefab, false).FastInstantiate<ParticleSystem>().transform.position = shootPosition;
+
+            float currentTime = Time.time;
+            if (currentTime - lastShotTime > shootFrequency) {
+                bulletController.Shoot(shootPosition, new Vector3(bulletVelocity, 0.0f, 0.0f));
+                PlayShootSound();
+                lastShotTime = currentTime;
+            }
+
+            if (shootParticlesPrefab != null) {
+                FastPoolManager.GetPool(shootParticlesPrefab, false).FastInstantiate<ParticleSystem>().transform.position = shootPosition;
+            }
         }
 
         public void PlayShootSound() {

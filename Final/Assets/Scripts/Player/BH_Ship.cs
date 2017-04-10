@@ -143,6 +143,11 @@ namespace BulletHell {
             if (enemy != null) {
                 player.Damage(1);
             }
+
+            BH_Bullet bullet = other.gameObject.GetComponent<BH_Bullet>();
+            if (bullet != null) {
+                player.Damage(1);
+            }
         }
     }
 }

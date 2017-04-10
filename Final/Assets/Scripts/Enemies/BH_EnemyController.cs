@@ -6,15 +6,16 @@ namespace BulletHell {
     public class BH_EnemyController : MonoBehaviour {
         
         public BH_GameplayController gameplayController { get; protected set; }
+        public BH_BulletController bulletController { get; protected set; }
+
+        [SerializeField]
+        protected Transform enemyTransform;
 
         [SerializeField]
         protected int startSeed = 0;
         
         [SerializeField]
         protected int enemyCacheSize = 10;
-
-        [SerializeField]
-        protected Vector3 enemyInactivePosition = new Vector3(0.0f, 100.0f, 0.0f);
 
         [SerializeField]
         protected List<BH_Enemy> enemyTypes = new List<BH_Enemy>();
@@ -48,6 +49,7 @@ namespace BulletHell {
 
             Reset();
             gameplayController = FindObjectOfType<BH_GameplayController>();
+            bulletController = GetComponentInChildren<BH_BulletController>();
         }
 
         // Use this for initialization
@@ -116,6 +118,7 @@ namespace BulletHell {
             enemyInstance.prefab = enemyPrefab;
             enemyInstance.enemyController = this;
             float yPosition = Random.Range(spawnMinYPosition, spawnMaxYPosition);
+            enemyInstance.transform.SetParent(enemyTransform);
             enemyInstance.transform.position = new Vector3(spawnXPosition, yPosition, 0.0f);
             enemyInstance.Spawn();
             activeEnemies[enemyPrefab.id].Add(enemyInstance);
@@ -141,9 +144,9 @@ namespace BulletHell {
 
         public void ReturnEnemy(BH_Enemy p_enemy) {
             p_enemy.active = false;
-            p_enemy.transform.position = enemyInactivePosition;
             p_enemy.rigidBody.velocity = Vector3.zero;
             activeEnemies[p_enemy.id].Remove(p_enemy);
+            p_enemy.transform.SetParent(FastPoolManager.Instance.transform);
             FastPoolManager.GetPool(p_enemy.prefab, false).FastDestroy(p_enemy.gameObject);
         }
     }
