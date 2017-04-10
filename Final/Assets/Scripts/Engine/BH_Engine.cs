@@ -6,6 +6,7 @@ namespace BulletHell {
     public class BH_Engine : MonoBehaviour {
 
         public BH_GameplayController gameplayController { get; protected set; }
+        public PlayMakerFSM playmakerFSM { get; protected set; }
 
         [SerializeField]
         protected int framerate = 60;
@@ -15,6 +16,7 @@ namespace BulletHell {
 
         public void Awake() {
             gameplayController = GetComponent<BH_GameplayController>();
+            playmakerFSM = GetComponent<PlayMakerFSM>();
 
             Application.targetFrameRate = framerate;
             QualitySettings.vSyncCount = vSync ? 1 : 0;
@@ -24,6 +26,10 @@ namespace BulletHell {
         }
         
         void Update() {
+        }
+
+        public void EndGame() {
+            playmakerFSM.SendEvent("END GAME");
         }
     }
 }

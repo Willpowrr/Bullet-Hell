@@ -12,6 +12,7 @@ namespace BulletHell {
         protected float timeScale = 1.0f;
 
         public int score { get; protected set; }
+        public int highScore { get; protected set; }
 
         void Awake() {
             gameplayController = GetComponent<BH_GameplayController>();
@@ -19,14 +20,28 @@ namespace BulletHell {
         }
 
         void Start() {
-            score = 0;
-            playerScoreUI.SetScore(score);
+            Reset();
         }
 
         void Update() {
-            if (gameplayController.player.alive) {
+            if (gameplayController.player.alive && gameplayController.gameActive) {
                 score += (int)(Time.deltaTime * timeScale);
-                playerScoreUI.SetScore(score);
+                if (score > highScore) {
+                    highScore = score;
+                }
+                playerScoreUI.SetScore(score, highScore);
+            }
+        }
+
+        public void Reset() {
+            score = 0;
+            highScore = PlayerPrefs.GetInt("BH_HighScore", 0);
+            playerScoreUI.SetScore(score, highScore);
+        }
+
+        public void SaveScore() {
+            if (score >= highScore) {
+                PlayerPrefs.SetInt("BH_HighScore", score);
             }
         }
     }

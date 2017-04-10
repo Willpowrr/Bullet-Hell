@@ -12,6 +12,7 @@ namespace BulletHell {
         public BH_PlayerHealthUI playerHealthUI { get; protected set; }
         public AudioSource audioSource { get; protected set; }
         public BH_InputController inputController { get; protected set; }
+        public BH_GameplayController gameplayController { get; protected set; }
         
         public Vector3 minPosition;
         public Vector3 maxPosition;
@@ -28,6 +29,8 @@ namespace BulletHell {
         [SerializeField]
         protected ParticleSystem deadParticlesPrefab;
 
+        public ParticleSystem deadParticles { get; protected set; }
+
         public int currentHealth { get; protected set; }
         public bool alive { get { return currentHealth > 0; } }
         public bool inputActive { get; set; }
@@ -41,18 +44,24 @@ namespace BulletHell {
             playerHealthUI = FindObjectOfType<BH_PlayerHealthUI>();
             audioSource = GetComponentInChildren<AudioSource>();
             inputController = GetComponent<BH_InputController>();
+            gameplayController = FindObjectOfType<BH_GameplayController>();
         }
 
         // Use this for initialization//
         void Start() {
 
             Reset();
-            currentHealth = startHealth;
             playerHealthUI.Initialize(startHealth);
         }
 
         public void Reset() {
             inputActive = false;
+            currentHealth = startHealth;
+            playerHealthUI.UpdateHealth(currentHealth);
+            ship.gameObject.SetActive(true);
+            if (deadParticles != null) {
+                FastPoolManager.GetPool(deadParticlesPrefab, false).FastDestroy(deadParticles.gameObject);
+            }
         }
 
         // Update is called once per frame
@@ -121,8 +130,10 @@ namespace BulletHell {
 
         protected void Kill() {
             FastPoolManager.GetPool(deathParticlesPrefab, false).FastInstantiate<ParticleSystem>().transform.position = ship.transform.position;
-            FastPoolManager.GetPool(deadParticlesPrefab, false).FastInstantiate<ParticleSystem>().transform.position = ship.transform.position;
+            deadParticles = FastPoolManager.GetPool(deadParticlesPrefab, false).FastInstantiate<ParticleSystem>();
+            deadParticles.transform.position = ship.transform.position;
             ship.gameObject.SetActive(false);
+            gameplayController.EndGame();
         }
     }
 }
