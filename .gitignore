@@ -8,6 +8,8 @@
 sysinfo.txt
 *.stackdump
 Final/Library/
+Final/Library
+Library/
  
 # ============================================= #
 # Visual Studio / MonoDevelop / Rider generated #
